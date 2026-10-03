@@ -350,5 +350,45 @@
     "title": "気象庁・震度とマグニチュード",
     "url": "https://www.jma.go.jp/jma/kishou/know/faq/faq27.html",
     "checked": "2026-10-04"
+  },
+  "mext3": {
+    "title": "文部科学省・情報Ⅰ研修教材 第3章",
+    "url": "https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf",
+    "checked": "2026-10-04"
+  },
+  "primarybalance": {
+    "title": "財務省・基礎的財政収支とは",
+    "url": "https://www.mof.go.jp/faq/budget/01ad.htm",
+    "checked": "2026-10-04"
+  },
+  "circular": {
+    "title": "環境省・循環経済とは",
+    "url": "https://policies.env.go.jp/recycle/circular_economy/about/index.html",
+    "checked": "2026-10-04"
+  },
+  "reuse": {
+    "title": "環境省・使用済製品等のリユース",
+    "url": "https://www.env.go.jp/recycle/circul/reuse/",
+    "checked": "2026-10-04"
+  },
+  "biodiversity": {
+    "title": "環境省・生物多様性とはなにか",
+    "url": "https://www.env.go.jp/guide/info/ecojin/oecmsites/20230719.html",
+    "checked": "2026-10-04"
+  },
+  "ecoservices": {
+    "title": "環境省・海洋生物多様性保全戦略 第3章",
+    "url": "https://www.env.go.jp/nature/biodic/kaiyo-hozen/guideline/05-1.html",
+    "checked": "2026-10-04"
+  },
+  "naturepositive": {
+    "title": "環境省・ネイチャーポジティブ",
+    "url": "https://policies.env.go.jp/nature/nature-positive/index.html",
+    "checked": "2026-10-04"
+  },
+  "abs": {
+    "title": "環境省・遺伝資源のアクセスと利益配分",
+    "url": "https://policies.env.go.jp/nature/biodiversity/abs/",
+    "checked": "2026-10-04"
   }
 }

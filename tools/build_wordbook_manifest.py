@@ -53,5 +53,14 @@ primary2=[
 ('climate','環境省・カーボンニュートラルとは','https://ondankataisaku.env.go.jp/carbon_neutral/about/'),
 ('adaptation','環境省・緩和と適応','https://ondankataisaku.env.go.jp/carbon_neutral/topics/20240725-topic-59.html'),
 ('jma','気象庁・震度とマグニチュード','https://www.jma.go.jp/jma/kishou/know/faq/faq27.html')]
+primary2.extend([
+('mext3','文部科学省・情報Ⅰ研修教材 第3章','https://www.mext.go.jp/content/20200722-mxt_jogai02-100013300_005.pdf'),
+('primarybalance','財務省・基礎的財政収支とは','https://www.mof.go.jp/faq/budget/01ad.htm'),
+('circular','環境省・循環経済とは','https://policies.env.go.jp/recycle/circular_economy/about/index.html'),
+('reuse','環境省・使用済製品等のリユース','https://www.env.go.jp/recycle/circul/reuse/'),
+('biodiversity','環境省・生物多様性とはなにか','https://www.env.go.jp/guide/info/ecojin/oecmsites/20230719.html'),
+('ecoservices','環境省・海洋生物多様性保全戦略 第3章','https://www.env.go.jp/nature/biodic/kaiyo-hozen/guideline/05-1.html'),
+('naturepositive','環境省・ネイチャーポジティブ','https://policies.env.go.jp/nature/nature-positive/index.html'),
+('abs','環境省・遺伝資源のアクセスと利益配分','https://policies.env.go.jp/nature/biodiversity/abs/')])
 for key,title,url in primary2: sources[key]=dict(title=title,url=url,checked='2026-10-04')
 (D/'sources.json').write_text(json.dumps(sources,ensure_ascii=False,indent=2)+'\n')
