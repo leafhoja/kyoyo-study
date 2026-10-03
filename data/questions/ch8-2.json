@@ -89,5 +89,45 @@
     "relatedChapterIds": [
       "ch8-2"
     ]
+  },
+  {
+    "questionId": "Q-CH8-2-L03-002",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "時事",
+    "chapterId": "ch8-2",
+    "difficultyLevel": 3,
+    "sequenceOrder": 4,
+    "questionText": "2024年3月7日にNATOの32番目の加盟国となった国はどれか。",
+    "choices": [
+      "スウェーデン",
+      "日本",
+      "オーストリア",
+      "アイルランド"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NATOの公式発表によれば、スウェーデンの加盟日は2024年3月7日で、32番目の加盟国となりました。3月11日は本部での国旗掲揚式の日です。この加盟に該当するのはスウェーデンのみです。過去の出来事を確認する練習問題で、出題予想ではありません。",
+    "hints": [
+      "資料の決定日、対象年、変更された内容を分けて確認しましょう。"
+    ],
+    "tags": [
+      "時事",
+      "一次資料",
+      "練習問題"
+    ],
+    "relatedChapterIds": [
+      "ch8-2"
+    ],
+    "sources": [
+      {
+        "title": "NATO・Swedish flag raised at NATO Headquarters（2024年3月11日）",
+        "url": "https://www.nato.int/en/news-and-events/articles/news/2024/03/11/swedish-flag-raised-at-nato-headquarters",
+        "confirmedDate": "2026-10-03"
+      }
+    ],
+    "createdDate": "2026-10-03",
+    "lastUpdatedDate": "2026-10-03",
+    "author": "サイト制作者",
+    "reviewStatus": "レビュー済み"
   }
 ]
