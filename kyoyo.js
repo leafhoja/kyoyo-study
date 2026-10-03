@@ -20,6 +20,7 @@
   // 部を追加したらここに1行足すだけでnavに反映される（02番§5.1）
   var NAV_PARTS = [
     { title: "ホーム", href: BASE + "index.html" },
+    { title: "一次試験ガイド", href: BASE + "一次試験ガイド.html" },
     { title: "第0部 試験概要", href: BASE + "第0部/ch0.html" },
     { title: "第1部 知能分野", href: BASE + "第1部/ch1.html" },
     { title: "第2部 知識分野", href: BASE + "第2部/ch5.html" },
