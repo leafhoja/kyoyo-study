@@ -44,7 +44,7 @@ button, input { font: inherit; }
 
 .skip-link { position: fixed; top: -60px; left: 18px; z-index: 20; background: var(--teal); color: #fff; padding: 8px 14px; border-radius: 0 0 8px 8px; }
 .skip-link:focus { top: 0; }
-.topbar { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--surface-strong) 90%, transparent); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.topbar { position: relative; z-index: 10; background: color-mix(in srgb, var(--surface-strong) 90%, transparent); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
 .topbar-inner { max-width: 1380px; height: 76px; margin: auto; padding: 0 28px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); }
 .brand:hover { color: var(--ink); }
@@ -58,6 +58,9 @@ button, input { font: inherit; }
 .search-box kbd { padding: 1px 6px; border: 1px solid var(--line); border-radius: 5px; font-size: 10px; }
 .icon-button, .mobile-menu { width: 40px; height: 40px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 10px; cursor: pointer; }
 .mobile-menu { display: grid; place-items: center; }
+.mobile-search-toggle { display: none; }
+.exam-instructions { margin: 20px 0; }
+.exam-instructions > summary { cursor: pointer; min-height: 44px; padding: 8px 0; color: var(--teal-dark); font-size: 14px; font-weight: 700; }
 
 .layout { max-width: 1380px; margin: auto; display: grid; grid-template-columns: 248px minmax(0, 1fr); min-height: calc(100vh - 76px); transition: grid-template-columns .25s ease; }
 .sidebar {
@@ -243,4 +246,41 @@ button, input { font: inherit; }
 @media (min-width: 701px) {
   body.sidebar-collapsed .layout { grid-template-columns: 0 minmax(0, 1fr); }
   body.sidebar-collapsed .sidebar { width: 0; padding-right: 0; padding-left: 0; border-right: 0; opacity: 0; pointer-events: none; }
+}
+
+/* スマホでは本文を優先し、補助UIとカードの余白を抑える。 */
+@media (max-width: 700px) {
+  html { -webkit-text-size-adjust: 100%; }
+  .topbar-inner { gap: 10px; padding: 0 12px; }
+  .brand { gap: 7px; min-width: 0; }
+  .brand-mark { width: 30px; height: 30px; flex-shrink: 0; }
+  .brand strong { font-size: 12px; }
+  .brand small { font-size: 9px; letter-spacing: 0; }
+  .mobile-menu, .icon-button { width: 44px; height: 44px; flex-shrink: 0; }
+  .mobile-search-toggle { display: block; }
+  .search-box { display: none; }
+  .topbar.search-open .topbar-inner { height: auto; min-height: 65px; flex-wrap: wrap; padding-bottom: 12px; }
+  .topbar.search-open .top-actions { flex: 1 1 100%; }
+  .topbar.search-open .search-box { display: flex; flex: 1; width: auto; height: 44px; }
+  .topbar.search-open .search-box input { display: block; width: 100%; min-width: 0; font-size: 16px; }
+  .sidebar { max-height: calc(100dvh - 65px); }
+  .sidebar[aria-hidden="true"] { visibility: hidden; }
+  .site-nav a { min-height: 44px; font-size: 14px; }
+  .main-content { padding: 20px 12px 32px; }
+  .document { overflow-wrap: anywhere; }
+  .document > h1 { font-size: 24px; }
+  .document p, .document ul, .document ol { font-size: 16px; line-height: 1.85; }
+  .document table { font-size: 14px; }
+  .question-card { padding: 16px 10px 18px; margin: 24px 0; border-radius: 10px; }
+  .document blockquote { padding-left: 12px; padding-right: 10px; }
+  .question-tools { flex-wrap: wrap; gap: 8px; }
+  .done-button, .question-explanation-link, .source-preview-link a, .switcher-button { min-height: 44px; display: inline-flex; align-items: center; font-size: 13px; }
+  .page-switcher { padding: 10px 12px; gap: 8px; margin-bottom: 20px; }
+  .page-switcher { flex-direction: row; align-items: center; }
+  .page-switcher .eyebrow { display: none; }
+  .page-switcher .switcher-button { width: auto; gap: 12px; }
+  .hero { padding: 24px 18px; }
+  .hero h1 { font-size: 26px; }
+  .section-heading { gap: 10px; flex-wrap: wrap; }
+  .section-heading h2 { font-size: 24px; }
 }

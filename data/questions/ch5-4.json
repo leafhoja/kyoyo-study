@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH5-4-L01-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "地学",
     "chapterId": "ch5-4",
@@ -15,7 +15,7 @@
       "湿度"
     ],
     "correctAnswer": 1,
-    "explanation": "マグニチュードは地震そのものの規模（エネルギー）を表す指標で、地震1回につき1つの値です。震度は、ある地点での揺れの強さを表す指標で、同じ地震でも観測地点によって異なります。",
+    "explanation": "マグニチュードは地震そのものの規模を表す指標です。震度は各地点の揺れの強さを表し、同じ地震でも場所によって異なります。ただし、マグニチュードにも計算方法による種類（気象庁マグニチュード、モーメントマグニチュード等）があり、同じ地震で異なる値が示されることがあります。「地震1回につき必ず1つの値」とは断定できません。",
     "hints": [
       "「地震そのものの大きさ」と「ある場所での揺れ方」は別の指標で表されます。"
     ],
@@ -26,22 +26,21 @@
     "relatedChapterIds": [
       "ch5-4"
     ],
-    "forecastId": "F-2027A-CH5-4-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
-    "reviewStatus": "未レビュー"
+    "reviewStatus": "未レビュー",
+    "sources": [
+      {
+        "title": "気象庁：震度・マグニチュード・地震情報について",
+        "url": "https://www.jma.go.jp/jma/kishou/know/faq/faq27.html",
+        "confirmedDate": "2026-10-03"
+      }
+    ]
   },
   {
     "questionId": "Q-CH5-4-L01-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "地学",
     "chapterId": "ch5-4",
@@ -67,22 +66,14 @@
     "relatedChapterIds": [
       "ch5-4"
     ],
-    "forecastId": "F-2027A-CH5-4-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH5-4-L01-003",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "地学",
     "chapterId": "ch5-4",
@@ -96,7 +87,7 @@
       "小惑星"
     ],
     "correctAnswer": 0,
-    "explanation": "水星・金星・地球・火星は地球型惑星と呼ばれ、岩石質で小型・高密度という特徴を持ちます。一方、木星・土星・天王星・海王星は木星型惑星と呼ばれ、ガス主体で大型・低密度という対照的な特徴を持ちます。",
+    "explanation": "水星・金星・地球・火星は地球型惑星で、岩石質で小型・高密度という特徴があります。外側の大型惑星は、木星・土星の巨大ガス惑星と、天王星・海王星の巨大氷惑星に区別できます。天王星・海王星まで一律に「ガス主体」と説明するのは不正確です。",
     "hints": [
       "「地球」に性質が似ているグループなので、その名前がそのまま分類名になっています。"
     ],
@@ -108,18 +99,17 @@
     "relatedChapterIds": [
       "ch5-4"
     ],
-    "forecastId": "F-2027A-CH5-4-003",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
-    "reviewStatus": "未レビュー"
+    "reviewStatus": "未レビュー",
+    "sources": [
+      {
+        "title": "国立天文台：巨大氷惑星の形成現場を捉えた",
+        "url": "https://www.nao.ac.jp/news/science/2016/20160914-alma.html",
+        "confirmedDate": "2026-10-03"
+      }
+    ]
   },
   {
     "questionId": "Q-CH5-4-L02-001",
@@ -152,7 +142,7 @@
   },
   {
     "questionId": "Q-CH5-4-L01-004",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "地学",
     "chapterId": "ch5-4",
@@ -178,16 +168,8 @@
     "relatedChapterIds": [
       "ch5-4"
     ],
-    "forecastId": "F-2027A-CH5-4-004",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
@@ -222,7 +204,7 @@
   },
   {
     "questionId": "Q-CH5-4-L01-005",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "地学",
     "chapterId": "ch5-4",
@@ -248,16 +230,8 @@
     "relatedChapterIds": [
       "ch5-4"
     ],
-    "forecastId": "F-2027A-CH5-4-005",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },

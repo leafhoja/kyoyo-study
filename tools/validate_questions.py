@@ -11,7 +11,9 @@ docs/技術設計/15_テスト品質保証設計.md §5.4 で定義した valida
 """
 import json
 import sys
+from datetime import date
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 QUESTIONS_DIR = ROOT / "data" / "questions"
@@ -108,6 +110,29 @@ def validate(questions):
                 errors.append(f"[{src}] {qid}: likelihoodLabel は{VALID_LIKELIHOOD}のいずれかである必要があります")
             if q.get("reviewStatus") not in VALID_REVIEW_STATUS:
                 errors.append(f"[{src}] {qid}: reviewStatus は{VALID_REVIEW_STATUS}のいずれかである必要があります")
+            if q.get("reviewStatus") == "未レビュー":
+                errors.append(f"[{src}] {qid}: 未レビューの予想を出題可能性付きで公開できません")
+            if not q.get("sources") or not str(q.get("basisDescription", "")).strip():
+                errors.append(f"[{src}] {qid}: 予想には具体的な確認資料と根拠説明が必要です")
+            if "pastExamTrend" in q.get("forecastBasis", []) and not q.get("relatedPastExamIds"):
+                errors.append(f"[{src}] {qid}: 過去問傾向を根拠にする場合は対応する過去問のIDが必要です")
+
+        sources = q.get("sources", [])
+        if not isinstance(sources, list):
+            errors.append(f"[{src}] {qid}: sources は配列である必要があります")
+            sources = []
+        for source in sources:
+            if not isinstance(source, dict):
+                errors.append(f"[{src}] {qid}: 確認資料はオブジェクトで指定してください")
+                continue
+            url = source.get("url")
+            parts = urlsplit(url) if isinstance(url, str) else None
+            if not str(source.get("title", "")).strip() or not parts or parts.scheme not in {"http", "https"} or not parts.netloc:
+                errors.append(f"[{src}] {qid}: 確認資料の資料名・HTTP(S) URLが不正です")
+            try:
+                date.fromisoformat(source.get("confirmedDate", ""))
+            except (ValueError, TypeError):
+                errors.append(f"[{src}] {qid}: 確認資料には実際の確認日（YYYY-MM-DD）が必要です")
 
     # 参照整合性（警告のみ：MVP段階では参照先が未作成の場合があるため）
     for q in questions:
@@ -137,7 +162,7 @@ def main():
         print("\nFAIL")
         sys.exit(1)
 
-    print("\nPASS: すべての問題データが検証を通過しました")
+    print("\nPASS: 問題データの構造・出典メタデータを確認（内容の真偽は別途照合が必要）")
     sys.exit(0)
 
 

@@ -52,7 +52,17 @@
       nav.appendChild(a);
     });
 
-    header.appendChild(buildSearchBox());
+    var menu = document.createElement("details");
+    menu.className = "header-menu";
+    var summary = document.createElement("summary");
+    summary.textContent = "メニュー・検索";
+    var controls = document.createElement("div");
+    controls.className = "header-controls";
+    header.appendChild(menu);
+    menu.appendChild(summary);
+    menu.appendChild(controls);
+    controls.appendChild(nav);
+    controls.appendChild(buildSearchBox());
 
     var toggle = document.createElement("button");
     toggle.type = "button";
@@ -63,7 +73,32 @@
       toggleTheme();
       toggle.textContent = currentThemeLabel();
     });
-    header.appendChild(toggle);
+    controls.appendChild(toggle);
+
+    var desktop = window.matchMedia("(min-width: 900px)");
+    var toc = document.querySelector(".chapter-layout > .sidebar");
+    var tocDetails;
+    if (toc) {
+      tocDetails = document.createElement("details");
+      var tocSummary = document.createElement("summary");
+      tocSummary.textContent = "この章の目次";
+      var title = toc.querySelector(".sidebar-title");
+      if (title) title.remove();
+      tocDetails.appendChild(tocSummary);
+      while (toc.firstChild) tocDetails.appendChild(toc.firstChild);
+      toc.appendChild(tocDetails);
+      toc.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          if (!desktop.matches) tocDetails.open = false;
+        });
+      });
+    }
+    function updateLayout() {
+      menu.open = desktop.matches;
+      if (tocDetails) tocDetails.open = desktop.matches;
+    }
+    desktop.addEventListener("change", updateLayout);
+    updateLayout();
   }
 
   // --- サイト内検索（12_技術基本設計.md §5.10：事前生成索引＋クライアント側フィルタ） ---

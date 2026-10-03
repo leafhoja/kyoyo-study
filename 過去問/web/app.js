@@ -33,6 +33,31 @@
 
   const questionCards = [...document.querySelectorAll(".question-card")];
 
+  // 原本の注意事項は残し、スマホでは必要なときに参照できる形にする。
+  if (isProblemPage && questionCards.length) {
+    const heading = [...document.querySelectorAll(".document > h2")]
+      .find((node) => node.textContent.trim() === "注意事項");
+    if (heading) {
+      const details = document.createElement("details");
+      details.className = "exam-instructions";
+      const summary = document.createElement("summary");
+      summary.textContent = "原本の注意事項を確認";
+      heading.before(details);
+      details.append(summary);
+      let node = heading.nextElementSibling;
+      details.append(heading);
+      while (node && !node.matches(".question-card, h2")) {
+        const next = node.nextElementSibling;
+        details.append(node);
+        node = next;
+      }
+      const wide = window.matchMedia("(min-width: 701px)");
+      const updateInstructions = () => { details.open = wide.matches; };
+      wide.addEventListener("change", updateInstructions);
+      updateInstructions();
+    }
+  }
+
   // 本文中に続けて記載されている注記は、注記の開始位置で改行する。
   const addFootnoteBreaks = () => {
     document.querySelectorAll(".document p").forEach((paragraph) => {
@@ -87,6 +112,23 @@
   updateProgressPanel();
 
   const search = document.querySelector("#site-search");
+  const topbar = document.querySelector(".topbar");
+  if (search && topbar) {
+    const searchToggle = document.createElement("button");
+    searchToggle.type = "button";
+    searchToggle.className = "icon-button mobile-search-toggle";
+    searchToggle.textContent = "⌕";
+    searchToggle.setAttribute("aria-label", "問題検索を開く");
+    searchToggle.setAttribute("aria-controls", "site-search");
+    searchToggle.setAttribute("aria-expanded", "false");
+    topbar.querySelector(".top-actions")?.prepend(searchToggle);
+    searchToggle.addEventListener("click", () => {
+      const open = topbar.classList.toggle("search-open");
+      searchToggle.setAttribute("aria-expanded", String(open));
+      searchToggle.setAttribute("aria-label", open ? "問題検索を閉じる" : "問題検索を開く");
+      if (open) search.focus();
+    });
+  }
   const empty = document.querySelector("#search-empty");
   const searchable = [...document.querySelectorAll("[data-searchable]")];
   const filter = () => {
@@ -136,6 +178,7 @@
       ? (open ? "サイドバーを閉じる" : "サイドバーを開く")
       : (open ? "サイドバーを格納" : "サイドバーを表示");
     sidebar.setAttribute("aria-hidden", String(!open));
+    sidebar.inert = !open;
     menuButton.setAttribute("aria-expanded", String(open));
     menuButton.setAttribute("aria-label", label);
     menuButton.title = label;

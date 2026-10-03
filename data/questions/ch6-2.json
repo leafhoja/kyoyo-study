@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH6-2-L01-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "世界史",
     "chapterId": "ch6-2",
@@ -27,16 +27,8 @@
     "relatedChapterIds": [
       "ch6-2"
     ],
-    "forecastId": "F-2027A-CH6-2-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "世界史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
@@ -56,7 +48,7 @@
       "D→A→B→C"
     ],
     "correctAnswer": 0,
-    "explanation": "ルネサンス（14〜16世紀）→ 宗教改革（16世紀）→ 産業革命（18世紀後半）→ 日清戦争（1894〜95年）の順です。ルネサンスと宗教改革はともに14〜16世紀ですが、ルネサンスの方がやや早く始まっており、宗教改革はルネサンス期の後半から本格化したという流れで押さえておきましょう。世界史と日本史が混在する年代整序問題では、それぞれの大まかな世紀を思い出し、世紀の早い順に並べる、という手順が有効です。",
+    "explanation": "ルネサンス（14〜16世紀）→ 宗教改革（16世紀）→ 産業革命（18世紀後半）→ 日清戦争（1894〜95年）の順です。ルネサンスは14世紀から、宗教改革は16世紀から始まるため、開始時期はルネサンスが先です。両者の時期は一部重なります。世界史と日本史が混在する年代整序問題では、それぞれの大まかな世紀を思い出し、世紀の早い順に並べる、という手順が有効です。",
     "hints": [
       "まず、それぞれのできごとがおおよそ何世紀のことだったかを思い出しましょう。",
       "ルネサンスと宗教改革は近い時代ですが、どちらが先に始まったかを整理しましょう。"
@@ -102,7 +94,7 @@
   },
   {
     "questionId": "Q-CH6-2-L01-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "世界史",
     "chapterId": "ch6-2",
@@ -128,22 +120,14 @@
     "relatedChapterIds": [
       "ch6-2"
     ],
-    "forecastId": "F-2027A-CH6-2-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "世界史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH6-2-L01-003",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "世界史",
     "chapterId": "ch6-2",
@@ -169,16 +153,8 @@
     "relatedChapterIds": [
       "ch6-2"
     ],
-    "forecastId": "F-2027A-CH6-2-003",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "世界史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },

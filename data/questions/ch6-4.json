@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH6-4-L01-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "思想",
     "chapterId": "ch6-4",
@@ -26,22 +26,14 @@
     "relatedChapterIds": [
       "ch6-4"
     ],
-    "forecastId": "F-2027A-CH6-4-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "思想分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH6-4-L01-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "思想",
     "chapterId": "ch6-4",
@@ -67,22 +59,14 @@
     "relatedChapterIds": [
       "ch6-4"
     ],
-    "forecastId": "F-2027A-CH6-4-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "思想分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH6-4-L01-003",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "思想",
     "chapterId": "ch6-4",
@@ -108,16 +92,8 @@
     "relatedChapterIds": [
       "ch6-4"
     ],
-    "forecastId": "F-2027A-CH6-4-003",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "思想分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },

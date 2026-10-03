@@ -67,8 +67,7 @@ label:focus-within {
 
 /* ヘッダー */
 .site-header {
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
@@ -270,6 +269,7 @@ label:focus-within {
   padding: 1rem 1rem 3rem;
   min-width: 0;
   flex: 1;
+  overflow-wrap: anywhere;
 }
 
 .home-content {
@@ -640,6 +640,17 @@ h3 {
   flex-shrink: 0;
 }
 
+.choice-label > span { min-width: 0; }
+
+@media (max-width: 600px) {
+  .home-section { padding: 0.75rem; margin: 1.5rem 0; }
+  .box-head, .box-body, .question-head, .question-body, .answer-toggle, .answer-panel {
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+  }
+  .chapter-nav { flex-direction: column; gap: 0.5rem; }
+}
+
 .record-btn {
   border: 1px solid var(--border);
   background: var(--bg-elevated);
@@ -756,4 +767,30 @@ details[open] > .answer-toggle::before {
   display: block;
   height: 100%;
   background: var(--accent);
+}
+
+/* ナビゲーションの開閉とスマホ配置 */
+.header-menu { flex: 1; }
+.header-menu > summary { cursor: pointer; min-height: 44px; padding: 0.5rem; }
+.header-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.sidebar summary { cursor: pointer; min-height: 44px; font-weight: 700; }
+@media (min-width: 900px) {
+  .header-menu > summary { display: none; }
+  .header-controls nav { flex: 1; }
+  .sidebar summary { pointer-events: none; list-style: none; }
+  .sidebar summary::-webkit-details-marker { display: none; }
+}
+@media (max-width: 899px) {
+  .site-header { align-items: flex-start; padding: 0.5rem 1rem; }
+  .site-header .logo { font-size: 0.9rem; flex: 1 1 100%; }
+  .header-menu { flex-basis: 100%; }
+  .header-menu > summary { padding-left: 0; }
+  .header-controls { padding-bottom: 0.5rem; }
+  .header-controls nav { flex-basis: 100%; }
+  .site-header nav a { min-height: 44px; display: flex; align-items: center; }
+  .search-box { max-width: none; }
+  .search-input { font-size: 1rem; min-height: 44px; }
+  .sidebar { padding: 0.5rem 1rem; }
+  .sidebar summary { padding: 0.5rem 0; }
+  .sidebar-nav a { min-height: 44px; padding: 0.4rem 0; }
 }

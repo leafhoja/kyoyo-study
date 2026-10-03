@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH7-1-L01-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "政治",
     "chapterId": "ch7-1",
@@ -26,22 +26,14 @@
     "relatedChapterIds": [
       "ch7-1"
     ],
-    "forecastId": "F-2027A-CH7-1-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "政治分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH7-1-L02-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "複数知識を組み合わせる問題",
     "field": "政治",
     "chapterId": "ch7-1",
@@ -67,16 +59,8 @@
     "relatedChapterIds": [
       "ch7-1"
     ],
-    "forecastId": "F-2027A-CH7-1-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "政治分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
@@ -111,7 +95,7 @@
   },
   {
     "questionId": "Q-CH7-1-L01-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "政治",
     "chapterId": "ch7-1",
@@ -137,22 +121,14 @@
     "relatedChapterIds": [
       "ch7-1"
     ],
-    "forecastId": "F-2027A-CH7-1-003",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "政治分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH7-1-L01-003",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "政治",
     "chapterId": "ch7-1",
@@ -178,22 +154,14 @@
     "relatedChapterIds": [
       "ch7-1"
     ],
-    "forecastId": "F-2027A-CH7-1-004",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "政治分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH7-1-L02-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "複数知識を組み合わせる問題",
     "field": "政治",
     "chapterId": "ch7-1",
@@ -220,16 +188,8 @@
     "relatedChapterIds": [
       "ch7-1"
     ],
-    "forecastId": "F-2027A-CH7-1-005",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "政治分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },

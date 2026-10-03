@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH2-2-L02-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "典型問題",
     "field": "判断推理",
     "chapterId": "ch2-2",
@@ -28,22 +28,14 @@
     "relatedChapterIds": [
       "ch2-2"
     ],
-    "forecastId": "F-2027A-CH2-2-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "判断推理分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH2-2-L02-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "典型問題",
     "field": "判断推理",
     "chapterId": "ch2-2",
@@ -69,16 +61,8 @@
     "relatedChapterIds": [
       "ch2-2"
     ],
-    "forecastId": "F-2027A-CH2-2-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "判断推理分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },

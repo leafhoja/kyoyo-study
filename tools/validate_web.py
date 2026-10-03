@@ -334,6 +334,7 @@ def problem_question_visible_lines(markdown: str) -> dict[int, list[str]]:
                 continue
             line = re.sub(r"!\[[^]]*\]\(assets/[^)]+\)", "", line)
             line = re.sub(r"\[([^]]+)\]\([^)]*\)", r"\1", line)
+            line = re.sub(r"<[^>]+>", " ", line)
             line = re.sub(r"\*\*([^*]+)\*\*", r"\1", line)
             line = re.sub(r"__([^_]+)__", r"\1", line)
             line = line.replace(r"\_", "_")
@@ -569,6 +570,11 @@ def generated_markdown_target(source_html: Path, href: str) -> tuple[Path, str] 
         # build.mjs は原本PDFへの相対リンクを公式PDFの外部URLへ変換する。
         return None
     path = re.sub(r"\.md$", ".html", parsed.path, flags=re.I)
+    essay = re.fullmatch(r"\.\./(20\d{2})年度/\1_総合論文\.md", parsed.path)
+    if essay:
+        path = f"{essay[1]}年度_総合論文_問題.html"
+    elif parsed.path.startswith("../解説/"):
+        path = Path(path).name
     mapped = path + (f"#{parsed.fragment}" if parsed.fragment else "")
     return local_target(source_html, mapped)
 
@@ -604,7 +610,7 @@ def main() -> int:
         )
     rendered_question_fields = set(re.findall(r"\bq\.([A-Za-z_$][A-Za-z0-9_$]*)", quiz_js))
     non_text_question_fields = {"type", "difficultyLevel", "questionId", "chapterId", "correctAnswer"}
-    allowed_question_fields = set(QUIZ_PUBLIC_TEXT_FIELDS) | non_text_question_fields
+    allowed_question_fields = set(QUIZ_PUBLIC_TEXT_FIELDS) | non_text_question_fields | {"sources"}
     check(
         rendered_question_fields <= allowed_question_fields,
         "問題UIが未監視のJSONフィールドを表示用に参照しています: "
@@ -618,6 +624,13 @@ def main() -> int:
             continue
         for question in question_data if isinstance(question_data, list) else []:
             question_id = question.get("questionId", "<不明>")
+            # 確認資料はtitle/urlのみ公開する。確認日は管理情報として保持する。
+            for source in question.get("sources", []):
+                for field in ("title", "url"):
+                    check(
+                        not QUIZ_PUBLIC_INTERNAL_TEXT_RE.search(str(source.get(field, ""))),
+                        f"問題UIの確認資料に制作メモが表示されます: {data_path}:{question_id}:sources.{field}",
+                    )
             for field in QUIZ_PUBLIC_TEXT_FIELDS:
                 value = question.get(field)
                 values = value if isinstance(value, list) else [value]
@@ -675,13 +688,17 @@ def main() -> int:
     }
     expected_web_files.update(explanation_html(spec).name for spec in SPECS)
     expected_web_files.update(problem_html(spec).name for spec in SPECS)
+    essay_problem_files = {f"{year}年度_総合論文_問題.html" for year in (2023, 2024, 2025)}
+    expected_web_files.update(essay_problem_files)
+    expected_web_files.update(f"{year}年度_総合論文.html" for year in (2023, 2024, 2025))
+    expected_web_files.add("総合論文_目次.html")
     actual_web_files = {path.name for path in WEB.glob("*.html")}
     check(
         actual_web_files == expected_web_files,
         f"生成HTMLのファイル集合が生成器定義と不一致です: 余分={sorted(actual_web_files - expected_web_files)}, 欠落={sorted(expected_web_files - actual_web_files)}",
     )
     expected_source_html = {path.with_suffix(".html").name for path in SOURCE.glob("*.md")}
-    actual_source_html = actual_web_files - {"index.html"} - {problem_html(spec).name for spec in SPECS}
+    actual_source_html = actual_web_files - {"index.html"} - {problem_html(spec).name for spec in SPECS} - essay_problem_files
     check(
         actual_source_html == expected_source_html,
         f"解説Markdownと生成HTMLの集合が不一致です: 余分={sorted(actual_source_html - expected_source_html)}, 欠落={sorted(expected_source_html - actual_source_html)}",
@@ -722,8 +739,17 @@ def main() -> int:
                 if is_problem_page:
                     images = [str(src).lower() for src in card["images"]]
                     has_visual_choices = any("choices" in src for src in images)
+                    card_markup = re.search(
+                        rf'<section class="question-card" id="{re.escape(card_id)}"[^>]*>(.*?)(?=<section class="question-card"|</article>)',
+                        read(path), re.S,
+                    )
+                    table_choice_numbers = re.findall(
+                        r'<tr>\s*<td\b[^>]*>\s*([1-5])\s*</td>',
+                        card_markup[1] if card_markup else "",
+                    )
+                    has_table_choices = table_choice_numbers == list("12345")
                     check(
-                        int(card["li"]) >= 2 or has_visual_choices,
+                        int(card["li"]) >= 2 or has_visual_choices or has_table_choices,
                         f"問題カードに選択肢がありません（テキストまたは選択肢画像が必要）: {path}#{card_id}",
                     )
                     expected_explanation_href = f"{explanation_html(matching_spec).name}#{card_id}"
@@ -878,6 +904,11 @@ def main() -> int:
         source_output_pairs.append((explanation_source, explanation_html(spec)))
     for markdown_path in sorted(SOURCE.glob("*.md")):
         source_output_pairs.append((markdown_path, WEB / markdown_path.with_suffix(".html").name))
+    for year in (2023, 2024, 2025):
+        source_output_pairs.append((
+            ROOT / f"過去問/{year}年度/{year}_総合論文.md",
+            WEB / f"{year}年度_総合論文_問題.html",
+        ))
     seen_pairs: set[tuple[Path, Path]] = set()
     for markdown_path, output_path in source_output_pairs:
         pair = (markdown_path.resolve(), output_path.resolve())
@@ -885,6 +916,26 @@ def main() -> int:
             continue
         seen_pairs.add(pair)
         markdown_text = read(markdown_path)
+        if output_path.name in essay_problem_files and output_path in inventories:
+            visible = VisibleTextInventory()
+            visible.feed(read(output_path))
+            rendered_text = " ".join(" ".join(visible.text).split())
+            for line in markdown_visible_lines(markdown_text):
+                visible_text_checks += 1
+                check(
+                    visible_text_contains(line, rendered_text),
+                    f"総合論文の本文が生成HTMLに保持されていません: {markdown_path} ({line[:80]})",
+                )
+            source_headings = [
+                (len(match[1]), match[2].strip())
+                for match in re.finditer(r"^(#{1,3})\s+(.+)$", markdown_text, re.M)
+            ]
+            check(
+                [heading for heading in inventories[output_path].headings if heading[0] <= 3] == source_headings,
+                f"総合論文の見出し列が不一致です: {markdown_path}",
+            )
+            for anchor in ("part1", "part2"):
+                check(anchor in inventories[output_path].ids, f"総合論文の部別アンカーがありません: {output_path}#{anchor}")
         check(
             output_path.exists() and output_path.stat().st_mtime >= markdown_path.stat().st_mtime,
             f"Markdown更新後に生成HTMLが再生成されていません: {markdown_path} -> {output_path}",
@@ -1075,6 +1126,16 @@ def main() -> int:
         for index in range(1, len(question_parts), 2):
             question_number = question_parts[index]
             question_body = question_parts[index + 1]
+            passage = question_body.split("<出典>", 1)[0]
+            for paragraph in re.split(r"\n\s*\n", passage):
+                check(
+                    not re.search(r"[。！？]\s*[○〇]\s+|\S\s+[ア-オ][:：]\s|\S\s+（注）", paragraph),
+                    f"問題の条件・並べ替え項目・注記が前の本文に連結しています: {source_path} 問{question_number}",
+                )
+                check(
+                    not re.search(r"\S\n(?:方法[①②]|[①②]−\s*[12]\s)", paragraph),
+                    f"問題の方法・作業番号が前の本文に連結しています: {source_path} 問{question_number}",
+                )
             if SOURCE_VISUAL_RE.search(question_body):
                 check(
                     bool(SOURCE_IMAGE_RE.search(question_body)),
@@ -1212,7 +1273,7 @@ def main() -> int:
     for year in {str(spec["year"]) for spec in SPECS}:
         count = sum(int(spec["count"]) for spec in SPECS if str(spec["year"]) == year)
         check(home.count(f"{count}問の問題と解説。") == len({str(spec["year"]) for spec in SPECS}), f"トップの年度別問題数表示が不一致です: {year} ({count})")
-    check("全162問を収録" in home, "トップの総問題数表示がありません")
+    check("基礎能力162問・総合論文6題を収録" in home, "トップの総問題数表示がありません")
 
     index_html = read(WEB / "問題別目次.html")
     for spec in SPECS:

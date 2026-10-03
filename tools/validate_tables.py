@@ -158,6 +158,9 @@ def validate_problem_page_table_counts() -> list[str]:
                 f"{source_path}: 問題文セクションにMarkdown表が残っています（{expected}件。原本PDF画像へ置換してください）"
             )
 
+        # 文字だけの組合せ選択肢は、生成器が対応するHTML表も使用できる。
+        # 原稿に明示された表を数え、生成HTMLでの追加・欠落を検出する。
+        expected += len(re.findall(r"<table\b", markdown[start.end():end] if start else markdown))
         parser = HTMLTreeParser()
         parser.feed(output_path.read_text(encoding="utf-8"))
         actual = len(descendants(parser.root, "table"))

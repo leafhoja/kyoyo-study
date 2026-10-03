@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH1-2-L02-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "典型問題",
     "field": "文章理解",
     "chapterId": "ch1-2",
@@ -27,22 +27,14 @@
     "relatedChapterIds": [
       "ch1-2"
     ],
-    "forecastId": "F-2027A-CH1-2-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "文章理解分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH1-2-L02-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "典型問題",
     "field": "文章理解",
     "chapterId": "ch1-2",
@@ -68,22 +60,14 @@
     "relatedChapterIds": [
       "ch1-2"
     ],
-    "forecastId": "F-2027A-CH1-2-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "文章理解分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH1-2-L02-003",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "典型問題",
     "field": "文章理解",
     "chapterId": "ch1-2",
@@ -108,16 +92,8 @@
     "relatedChapterIds": [
       "ch1-2"
     ],
-    "forecastId": "F-2027A-CH1-2-003",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "文章理解分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
@@ -152,7 +128,7 @@
   },
   {
     "questionId": "Q-CH1-2-L02-004",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "典型問題",
     "field": "文章理解",
     "chapterId": "ch1-2",
@@ -177,16 +153,8 @@
     "relatedChapterIds": [
       "ch1-2"
     ],
-    "forecastId": "F-2027A-CH1-2-004",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "文章理解分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },

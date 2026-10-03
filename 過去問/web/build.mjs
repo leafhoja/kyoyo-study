@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SOURCE = path.resolve(HERE, "../解説");
+const problemsOnly = process.argv.includes("--problems-only");
 
 const pageOrder = [
   "解説集.md",
@@ -13,6 +14,10 @@ const pageOrder = [
   "2024年度_Ⅱ部.md",
   "2025年度_Ⅰ部.md",
   "2025年度_Ⅱ部.md",
+  "総合論文_目次.md",
+  "2023年度_総合論文.md",
+  "2024年度_総合論文.md",
+  "2025年度_総合論文.md",
   "学習ガイド.md",
   "問題別目次.md",
   "確認事項.md",
@@ -20,6 +25,13 @@ const pageOrder = [
 
 const supportPages = ["学習ガイド.md", "問題別目次.md", "確認事項.md"];
 const yearPagePattern = /^(20\d{2})年度_([ⅠⅡ])部\.md$/;
+const essaySources = ["2023", "2024", "2025"].map((year) => ({
+  year,
+  source: `../${year}年度/${year}_総合論文.md`,
+  href: `${year}年度_総合論文_問題.html`,
+  explanationHref: `${year}年度_総合論文.html`,
+  kind: "essay-questions",
+}));
 const problemSources = [
   // PDFはiframeで全ページを埋め込まず、図表などの確認が必要なページだけを
   // 原本PDFの該当ページへリンクする。ページ番号は表紙を1とする。
@@ -38,6 +50,9 @@ const officialPdfUrls = new Map([
   ["../2024年度/24II部.pdf", "https://www.jinji.go.jp/content/000002973.pdf"],
   ["../2025年度/25I部.pdf", "https://www.jinji.go.jp/content/000016198.pdf"],
   ["../2025年度/25II部.pdf", "https://www.jinji.go.jp/content/000013933.pdf"],
+  ["../2023年度/23総合論文試験.pdf", "https://www.jinji.go.jp/content/000010520.pdf"],
+  ["../2024年度/24総合論文試験.pdf", "https://www.jinji.go.jp/content/900035955.pdf"],
+  ["../2025年度/25総合論文試験.pdf", "https://www.jinji.go.jp/content/000016199.pdf"],
 ]);
 
 function escapeHtml(value = "") {
@@ -58,6 +73,11 @@ function mapHref(href) {
   const [pathPart, fragment] = href.split("#", 2);
   const officialPdf = officialPdfUrls.get(pathPart);
   if (officialPdf) return officialPdf + (fragment ? `#${fragment}` : "");
+  const essay = essaySources.find((page) => page.source === pathPart);
+  if (essay) return essay.href + (fragment ? `#${fragment}` : "");
+  if (pathPart.startsWith("../解説/")) {
+    return pageName(path.basename(pathPart)) + (fragment ? `#${fragment}` : "");
+  }
   return href.replace(/\.md(?=#|$)/u, ".html");
 }
 
@@ -229,7 +249,7 @@ function normalizeQuestionMarkdown(markdown) {
     .replace(/[ーゥ一]+(?=\s*$)/gmu, "")
     // OCR sometimes concatenates consecutive circle conditions into one paragraph.
     // Keep each condition on its own block so the Web page follows the source PDF.
-    .replace(/([。！？])\s*〇\s*/gu, "$1\n\n〇 ")
+    .replace(/([。！？])\s*([○〇])\s+/gu, "$1\n\n$2 ")
     // OCRで英語のアポストロフィがバッククォートとして取り込まれた箇所を戻す。
     .replace(/(?<=[A-Za-z])`(?=[A-Za-z])/gu, "'")
     // 省略記号は原本PDFの全角空白を保持する。
@@ -264,7 +284,9 @@ function renderTable(lines, { footnoteMarkers = false, sourceName = "" } = {}) {
 }
 
 function renderMarkdown(markdown, { questionPage = false, problemPdf = "", sourcePages = [], companionHref = "", sourceName = "" } = {}) {
-  const sourceMarkdown = questionPage === "problem" ? normalizeQuestionMarkdown(markdown) : markdown;
+  // Page markers may appear inside a paragraph crossing a PDF page boundary.
+  const cleanMarkdown = markdown.replace(/<!--\s*PDF page\s+\d+\s*\/[^>]*-->/gu, "");
+  const sourceMarkdown = questionPage === "problem" ? normalizeQuestionMarkdown(cleanMarkdown) : cleanMarkdown;
   const renderInline = (source) => inlineMarkdown(source, { footnoteMarkers: Boolean(questionPage) });
   const lines = sourceMarkdown.replaceAll("\r\n", "\n").split("\n");
   const output = [];
@@ -287,7 +309,8 @@ function renderMarkdown(markdown, { questionPage = false, problemPdf = "", sourc
   };
   const closeList = () => {
     if (!list) return;
-    output.push(`<${list.type}>${list.items.map((item) => `<li>${renderInline(item)}</li>`).join("")}</${list.type}>`);
+    const renderList = (entry) => `<${entry.type}>${entry.items.map((item) => `<li>${renderInline(item.text)}${item.children.map(renderList).join("")}</li>`).join("")}</${entry.type}>`;
+    output.push(renderList(list));
     list = null;
   };
   const closeQuote = () => {
@@ -359,6 +382,11 @@ function renderMarkdown(markdown, { questionPage = false, problemPdf = "", sourc
     }
     if (/^<!--.*-->$/u.test(line.trim())) continue;
     if (/^<a\s+id=["']q\d+["']><\/a>$/u.test(line.trim())) continue;
+    if (/^<a\s+id="part[12]"><\/a>$/u.test(line.trim())) {
+      closeAll();
+      output.push(line.trim());
+      continue;
+    }
     if (line.trim() === "<出典>") {
       // 出典ブロックはMarkdown側の確認記録として保持するが、
       // ＊No.や制作時の参照情報を利用者向けページへは出力しない。
@@ -451,16 +479,28 @@ function renderMarkdown(markdown, { questionPage = false, problemPdf = "", sourc
       output.push(rawTable.join("\n"));
       continue;
     }
-    const listItem = line.match(/^\s*([-*+]|\d+\.)\s+(.+)$/u);
+    const listItem = line.match(/^(\s*)([-*+]|\d+\.)\s+(.+)$/u);
     if (listItem) {
       closeParagraph();
       closeQuote();
-      const type = /^\d/u.test(listItem[1]) ? "ol" : "ul";
-      if (!list || list.type !== type) {
+      const type = /^\d/u.test(listItem[2]) ? "ol" : "ul";
+      const indent = listItem[1].length;
+      if (!list || (indent <= list.indent && list.type !== type)) {
         closeList();
-        list = { type, items: [] };
+        list = { type, indent, items: [] };
       }
-      list.items.push(listItem[2]);
+      let parent = list;
+      while (indent > parent.indent && parent.items.length) {
+        const children = parent.items.at(-1).children;
+        let child = children.at(-1);
+        if (!child || child.type !== type) {
+          child = { type, indent, items: [] };
+          children.push(child);
+        }
+        if (child.indent > indent) break;
+        parent = child;
+      }
+      parent.items.push({ text: listItem[3], children: [] });
       continue;
     }
     const quoteLine = line.match(/^>\s?(.*)$/u);
@@ -480,6 +520,8 @@ function renderMarkdown(markdown, { questionPage = false, problemPdf = "", sourc
 }
 
 function pageMeta(filename) {
+  const essay = filename.match(/^(20\d{2})年度_総合論文\.md$/u);
+  if (essay) return { filename, href: pageName(filename), year: essay[1], kind: "essay" };
   const year = filename.match(yearPagePattern);
   if (year) {
     return { filename, href: pageName(filename), year: year[1], part: year[2], kind: "exam", questionPage: true };
@@ -489,6 +531,7 @@ function pageMeta(filename) {
     "学習ガイド.md": "学習ガイド",
     "問題別目次.md": "問題別目次",
     "確認事項.md": "確認事項",
+    "総合論文_目次.md": "総合論文の目次・書き方",
   };
   return { filename, href: pageName(filename), kind: "support", label: labels[filename] || filename.replace(/\.md$/u, "") };
 }
@@ -515,7 +558,8 @@ function navMarkup(index, current) {
   const yearGroups = years.map((year) => {
     const pages = exams.filter((page) => page.year === year);
     const problemPages = questions.filter((page) => page.year === year);
-    return `<div class="nav-year"><p>${year}年度</p>${pages.map((page) => `<a class="nav-link ${page.href === current ? "is-current" : ""}" href="${page.href}"><span>${page.part}部</span><small>解説</small></a>`).join("")}${problemPages.map((page) => `<a class="nav-link nav-problem ${page.href === current ? "is-current" : ""}" href="${page.href}"><span>↳ ${page.part}部</span><small>問題</small></a>`).join("")}</div>`;
+    const essay = essaySources.find((page) => page.year === year);
+    return `<div class="nav-year"><p>${year}年度</p>${pages.map((page) => `<a class="nav-link ${page.href === current ? "is-current" : ""}" href="${page.href}"><span>${page.part}部</span><small>解説</small></a>`).join("")}${problemPages.map((page) => `<a class="nav-link nav-problem ${page.href === current ? "is-current" : ""}" href="${page.href}"><span>↳ ${page.part}部</span><small>問題</small></a>`).join("")}<a class="nav-link ${essay.explanationHref === current ? "is-current" : ""}" href="${essay.explanationHref}"><span>総合論文</span><small>解説</small></a><a class="nav-link nav-problem ${essay.href === current ? "is-current" : ""}" href="${essay.href}"><span>↳ 総合論文</span><small>問題・資料</small></a></div>`;
   }).join("");
   const studyLinks = [
     ["第0部　試験概要", "../../第0部/ch0.html"],
@@ -624,7 +668,7 @@ function homeBody(index, questionCounts) {
     return `<article class="year-card" data-searchable="${year}年度 基礎能力試験 Ⅰ部 Ⅱ部 解説 問題 ${yearIndex === 0 ? "最新" : ""}"><div class="year-card-top"><span class="year-badge">${year}</span><span class="year-status">${yearIndex === 0 ? "最新年度" : "演習用"}</span></div><h2>${year}年度</h2><p>Ⅰ部・Ⅱ部、${count}問の問題と解説。</p><div class="card-links">${pages.map((page) => { const problem = problemPages.find((item) => item.part === page.part); return `<div class="card-link-row"><a href="${page.href}"><span>${page.part}部</span>解説<b>→</b></a><a class="problem-link" href="${problem.href}">問題だけ</a></div>`; }).join("")}</div></article>`;
   }).join("");
   const support = index.filter((page) => page.kind === "support" && page.filename !== "解説集.md").map((page) => `<a class="tool-card" data-searchable="${page.label}" href="${page.href}"><span class="tool-icon">${page.filename.startsWith("学") ? "✦" : page.filename.startsWith("問") ? "▦" : "✓"}</span><span><strong>${page.label}</strong><small>${page.filename.startsWith("学") ? "初回の取り組み方・解法・復習" : page.filename.startsWith("問") ? "全162問をテーマから探す" : "原本の欠落・時点・検証内容"}</small></span><b>→</b></a>`).join("");
-  return `<section class="hero"><div class="eyebrow">NATIONAL CIVIL SERVICE EXAM</div><h1>過去問を、<em>解ける知識</em>に変える。</h1><p>まず問題だけを解き、必要なときに解説へ移れる、国家総合職〈教養区分〉の学習サイトです。</p><div class="hero-actions"><a class="primary-button" href="2025年度_Ⅰ部_問題.html">最新年度の問題から始める <span>→</span></a><a class="text-button" href="問題別目次.html">問題を探す</a></div><div class="hero-note"><span>◈</span><span><strong>全162問を収録</strong><br>2023〜2025年度・Ⅰ部／Ⅱ部</span></div></section><section class="section-block"><div class="section-heading"><div><span class="eyebrow">YEAR BY YEAR</span><h2>年度別に読む・解く</h2></div><span class="section-count">3 YEARS</span></div><div class="year-grid">${cards}</div></section><section class="section-block tools-section"><div class="section-heading"><div><span class="eyebrow">STUDY TOOLS</span><h2>学習を支えるページ</h2></div></div><div class="tools-grid">${support}</div></section><section class="principle"><span class="principle-mark">“</span><p>先に問題だけで考え、<br><strong>必要なときに解説へ進む。</strong></p></section>`;
+  return `<section class="hero"><div class="eyebrow">NATIONAL CIVIL SERVICE EXAM</div><h1>過去問を、<em>解ける知識</em>に変える。</h1><p>まず問題だけを解き、必要なときに解説へ移れる、国家総合職〈教養区分〉の学習サイトです。</p><div class="hero-actions"><a class="primary-button" href="2025年度_Ⅰ部_問題.html">最新年度の問題から始める <span>→</span></a><a class="text-button" href="問題別目次.html">問題を探す</a></div><div class="hero-note"><span>◈</span><span><strong>基礎能力162問・総合論文6題を収録</strong><br>2023〜2025年度・Ⅰ部／Ⅱ部</span></div></section><section class="section-block"><div class="section-heading"><div><span class="eyebrow">YEAR BY YEAR</span><h2>年度別に読む・解く</h2></div><span class="section-count">3 YEARS</span></div><div class="year-grid">${cards}</div></section><section class="section-block tools-section"><div class="section-heading"><div><span class="eyebrow">STUDY TOOLS</span><h2>学習を支えるページ</h2></div></div><div class="tools-grid">${support}</div></section><section class="principle"><span class="principle-mark">“</span><p>先に問題だけで考え、<br><strong>必要なときに解説へ進む。</strong></p></section>`;
 }
 
 function withoutAnswerKey(markdown) {
@@ -645,7 +689,7 @@ function pageTitleFromMarkdown(markdown, fallback) {
 }
 
 fs.mkdirSync(HERE, { recursive: true });
-const index = [...pageOrder.map(pageMeta), ...problemSources.map(problemPageMeta)];
+const index = [...pageOrder.map(pageMeta), ...problemSources.map(problemPageMeta), ...essaySources];
 
 for (const page of problemSources) {
   const source = fs.readFileSync(path.resolve(HERE, page.source), "utf8");
@@ -667,6 +711,16 @@ for (const page of problemSources) {
 }
 
 for (const page of index) {
+  if (problemsOnly && page.kind !== "questions") continue;
+  if (page.kind === "essay-questions") {
+    const markdown = fs.readFileSync(path.resolve(HERE, page.source), "utf8");
+    validateMarkdownTableSyntax(markdown, page.source);
+    const title = `${page.year}年度 総合論文試験 問題・資料`;
+    const switcher = pageSwitcher({ href: page.explanationHref, label: "解説を見る", description: "総合論文の問題・資料を表示中", tone: "problem-mode" });
+    const body = renderMarkdown(markdown, { questionPage: "essay", sourceName: page.source });
+    writePublicHtml(page.href, shell({ title, body: `<article class="document">${switcher}${body}</article>`, index, current: page.href, pageType: page.kind }));
+    continue;
+  }
   if (page.kind === "questions") {
     const markdown = fs.readFileSync(path.resolve(HERE, page.source), "utf8");
     validateMarkdownTableSyntax(markdown, page.source);
@@ -680,16 +734,19 @@ for (const page of index) {
   const markdown = fs.readFileSync(path.join(SOURCE, page.filename), "utf8");
   validateMarkdownTableSyntax(markdown, page.filename);
   const title = pageTitleFromMarkdown(markdown, page.label || page.filename);
-  const companion = page.kind === "exam" ? index.find((item) => item.kind === "questions" && item.year === page.year && item.part === page.part) : null;
+  const companion = page.kind === "exam" ? index.find((item) => item.kind === "questions" && item.year === page.year && item.part === page.part)
+    : page.kind === "essay" ? essaySources.find((item) => item.year === page.year) : null;
   const switcher = companion ? pageSwitcher({ href: companion.href, label: "問題だけを見る", description: "解説を表示中", tone: "explanation-mode" }) : "";
   const body = renderMarkdown(markdown, { questionPage: page.questionPage ? "explanation" : false, sourceName: page.filename });
   const html = shell({ title, body: `<article class="document">${switcher}${body}</article>`, index, current: page.href, pageType: page.kind });
   writePublicHtml(page.href, html);
 }
 
-const home = shell({ title: "過去問解説集", body: homeBody(index, questionCounts), index, current: "index.html", pageType: "home" });
-writePublicHtml("index.html", home);
+if (!problemsOnly) {
+  const home = shell({ title: "過去問解説集", body: homeBody(index, questionCounts), index, current: "index.html", pageType: "home" });
+  writePublicHtml("index.html", home);
+}
 for (const [filename, html] of pendingWrites) {
   fs.writeFileSync(path.join(HERE, filename), html);
 }
-console.log(`Generated ${index.length + 1} HTML pages in ${HERE}`);
+console.log(`Generated ${pendingWrites.size} HTML pages in ${HERE}`);

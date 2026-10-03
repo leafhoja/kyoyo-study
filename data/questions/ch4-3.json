@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH4-3-L04-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "実戦問題",
     "field": "資料解釈",
     "chapterId": "ch4-3",
@@ -28,23 +28,14 @@
     "relatedChapterIds": [
       "ch4-3"
     ],
-    "forecastId": "F-2027A-CH4-3-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend",
-      "policyTrend"
-    ],
-    "basisDescription": "資料解釈分野の中でも発展的・複合的な内容であり、出題頻度自体は高くないと考えられるが、出題された場合の難度が高いテーマであるため備えておく価値があると評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "低いが備える価値あり",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH4-3-L03-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "標準問題",
     "field": "資料解釈",
     "chapterId": "ch4-3",
@@ -70,16 +61,8 @@
     "relatedChapterIds": [
       "ch4-3"
     ],
-    "forecastId": "F-2027A-CH4-3-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "資料解釈分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },

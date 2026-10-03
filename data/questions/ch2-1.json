@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH2-1-L00-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "問題形式を理解するための導入問題",
     "field": "判断推理",
     "chapterId": "ch2-1",
@@ -26,22 +26,14 @@
     "relatedChapterIds": [
       "ch2-1"
     ],
-    "forecastId": "F-2027A-CH2-1-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "判断推理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH2-1-L01-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "判断推理",
     "chapterId": "ch2-1",
@@ -67,22 +59,14 @@
     "relatedChapterIds": [
       "ch2-1"
     ],
-    "forecastId": "F-2027A-CH2-1-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "判断推理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH2-1-L00-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "用語を確認する問題",
     "field": "判断推理",
     "chapterId": "ch2-1",
@@ -108,16 +92,8 @@
     "relatedChapterIds": [
       "ch2-1"
     ],
-    "forecastId": "F-2027A-CH2-1-003",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "判断推理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },

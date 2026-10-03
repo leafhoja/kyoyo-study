@@ -22,6 +22,8 @@ jobs:
           python-version: '3.12'
       - name: Validate question data
         run: python tools/validate_questions.py
+      - name: Check explanation answer numbers
+        run: python tools/verify_explanations.py
       - name: Export and validate public site
         run: python tools/export_site.py
       - uses: actions/configure-pages@v5

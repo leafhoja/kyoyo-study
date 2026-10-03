@@ -73,6 +73,12 @@
 
     var body = el("div", { class: "question-body" });
     body.appendChild(el("p", { text: q.questionText }));
+    if (q.type === "practice") {
+      body.appendChild(el("p", {
+        class: "question-note",
+        text: "制作者が作成した練習問題です。読解本文・資料中の数値は、出典が明記されたものを除き、演習用の設定です。"
+      }));
+    }
 
     if (isForecast) {
       var forecastBox = el("div", { class: "box-forecast" });
@@ -122,6 +128,17 @@
       ])
     );
     panel.appendChild(el("p", { text: q.explanation }));
+    if (q.sources && q.sources.length) {
+      var sourceList = el("ul", { class: "answer-sources" });
+      q.sources.forEach(function (source) {
+        if (!/^https?:\/\//.test(source.url || "")) return;
+        sourceList.appendChild(el("li", {}, [
+          el("a", { href: source.url, text: source.title })
+        ]));
+      });
+      panel.appendChild(el("p", { text: "解説の確認資料：" }));
+      panel.appendChild(sourceList);
+    }
 
     if (q.hints && q.hints.length) {
       q.hints.forEach(function (hintText, i) {

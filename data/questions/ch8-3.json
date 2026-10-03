@@ -1,7 +1,7 @@
 [
   {
     "questionId": "Q-CH8-3-L01-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "時事",
     "chapterId": "ch8-3",
@@ -27,22 +27,14 @@
     "relatedChapterIds": [
       "ch8-3"
     ],
-    "forecastId": "F-2027A-CH8-3-001",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "時事分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH8-3-L01-002",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "単一知識の基礎確認問題",
     "field": "時事",
     "chapterId": "ch8-3",
@@ -68,22 +60,14 @@
     "relatedChapterIds": [
       "ch8-3"
     ],
-    "forecastId": "F-2027A-CH8-3-002",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "時事分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "高い",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
   {
     "questionId": "Q-CH8-3-L02-001",
-    "type": "forecast",
+    "type": "practice",
     "practiceCategory": "複数分野を横断する問題",
     "field": "時事",
     "chapterId": "ch8-3",
@@ -109,16 +93,8 @@
     "relatedChapterIds": [
       "ch8-3"
     ],
-    "forecastId": "F-2027A-CH8-3-003",
-    "targetExamYear": "2027年度（春実施を想定）",
-    "forecastBasis": [
-      "pastExamTrend"
-    ],
-    "basisDescription": "時事分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
-    "relatedPastExamIds": [],
-    "likelihoodLabel": "中程度",
     "createdDate": "2026-07-31",
-    "lastUpdatedDate": "2026-07-31",
+    "lastUpdatedDate": "2026-10-03",
     "author": "サイト制作者",
     "reviewStatus": "未レビュー"
   },
@@ -130,7 +106,7 @@
     "chapterId": "ch8-3",
     "difficultyLevel": 3,
     "sequenceOrder": 4,
-    "questionText": "日本の公的年金制度は、しばしば「2階建て」の構造にたとえられる。このうち1階部分にあたり、20歳以上60歳未満の全国民が加入する制度を何というか。",
+    "questionText": "日本の公的年金制度は、しばしば「2階建て」の構造にたとえられる。このうち1階部分にあたり、原則として日本国内に住所がある20歳以上60歳未満の人が国籍にかかわらず加入する制度を何というか。",
     "choices": [
       "国民年金（基礎年金）",
       "厚生年金",
@@ -138,7 +114,7 @@
       "国民健康保険"
     ],
     "correctAnswer": 0,
-    "explanation": "国民年金（基礎年金）は、20歳以上60歳未満の全国民が加入する「1階部分」にあたる制度です。会社員・公務員等が加入する厚生年金は、国民年金に上乗せされる「2階部分」にあたります。確定拠出年金はさらに上乗せされる私的年金の一種で加入は任意です。国民健康保険は医療保険であり、年金制度とは別の社会保障制度です。",
+    "explanation": "国民年金（基礎年金）は公的年金の「1階部分」です。加入の原則は国籍ではなく国内居住と年齢であり、日本国内に住所がある20歳以上60歳未満の人は外国人も対象です。会社員・公務員等が加入する厚生年金は「2階部分」にあたります。確定拠出年金は上乗せの私的年金、国民健康保険は医療保険であり、別の制度です。",
     "hints": [
       "「全国民共通」の部分と、「会社員・公務員等に上乗せされる」部分の違いに注目しましょう。"
     ],
@@ -149,7 +125,15 @@
     ],
     "relatedChapterIds": [
       "ch8-3"
-    ]
+    ],
+    "sources": [
+      {
+        "title": "日本年金機構：外国籍の従業員を雇用する事業主のみなさまへ",
+        "url": "https://www.nenkin.go.jp/tokusetsu/gaikokujinkoyou.html",
+        "confirmedDate": "2026-10-03"
+      }
+    ],
+    "lastUpdatedDate": "2026-10-03"
   },
   {
     "questionId": "Q-CH8-3-L03-002",
@@ -159,7 +143,7 @@
     "chapterId": "ch8-3",
     "difficultyLevel": 3,
     "sequenceOrder": 5,
-    "questionText": "正社員と非正規雇用労働者の間で、業務内容や責任の程度が同じであれば、待遇に不合理な差を設けないようにするという考え方を何というか。",
+    "questionText": "正社員と非正規雇用労働者の間の不合理な待遇差を解消することを目指す考え方を何というか。",
     "choices": [
       "同一労働同一賃金",
       "最低賃金制度",
@@ -167,7 +151,7 @@
       "終身雇用"
     ],
     "correctAnswer": 0,
-    "explanation": "同一労働同一賃金は、雇用形態にかかわらず、同じ内容・同じ責任の仕事には同じ待遇を与えるべきだという考え方で、働き方改革の柱の一つとされています。最低賃金制度は賃金の下限を法律で定める別の制度、年功序列・終身雇用はいずれも従来の日本型雇用慣行を指す用語で、同一労働同一賃金とは異なる概念です。",
+    "explanation": "同一労働同一賃金は、正規・非正規雇用労働者間の不合理な待遇差の解消を目指す考え方です。短時間・有期雇用労働者の待遇差は、職務内容（業務内容と責任の程度）、職務内容・配置の変更範囲、その他の事情を考慮して判断します。業務と責任が同じという条件だけで、あらゆる待遇を一律に同じにする制度だと理解しないことが重要です。最低賃金制度は賃金の下限を定める制度、年功序列・終身雇用は雇用慣行です。",
     "hints": [
       "「同一労働」＝同じ仕事内容、「同一賃金」＝同じ賃金、という言葉どおりの意味を確認しましょう。"
     ],
@@ -178,6 +162,19 @@
     ],
     "relatedChapterIds": [
       "ch8-3"
-    ]
+    ],
+    "sources": [
+      {
+        "title": "厚生労働省：同一労働同一賃金",
+        "url": "https://hatarakikatakaikaku.mhlw.go.jp/same.html",
+        "confirmedDate": "2026-10-03"
+      },
+      {
+        "title": "厚生労働省：短時間・有期雇用労働法の施行通達",
+        "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc4731&dataType=1",
+        "confirmedDate": "2026-10-03"
+      }
+    ],
+    "lastUpdatedDate": "2026-10-03"
   }
 ]
