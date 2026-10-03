@@ -500,6 +500,35 @@ h3 {
   padding: 0.7rem 0.9rem;
 }
 
+.glossary-main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.glossary-entry .box-head {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.glossary-entry .box-body p {
+  margin: 0 0 0.5rem;
+}
+
+.glossary-entry .box-body p:last-child {
+  margin-bottom: 0;
+}
+
+.glossary-source {
+  font-size: 0.85rem;
+}
+
+.glossary-toc ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  padding-left: 1.25rem;
+}
+
 .box-now {
   border-color: var(--now-border);
 }
@@ -853,3 +882,44 @@ details[open] > .answer-toggle::before {
   .sidebar summary { padding: 0.5rem 0; }
   .sidebar-nav a { min-height: 44px; padding: 0.4rem 0; }
 }
+
+/* 分野別単語帳 */
+.wordbook-legend { margin: 1.2rem 0; padding: 0.8rem 1rem; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 8px; }
+.wordbook-legend > summary { cursor: pointer; font-weight: 700; min-height: 32px; }
+.priority-reasons { display: grid; grid-template-columns: minmax(140px, auto) 1fr; gap: 0.4rem 1rem; font-size: 0.92rem; }
+.priority-reasons dt { font-weight: 700; }
+.priority-reasons dd { margin: 0; }
+.wordbook-controls { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: end; background: var(--bg-elevated); padding: 1rem; border: 1px solid var(--border); border-radius: 8px; }
+.wordbook-controls label { display: grid; gap: 0.3rem; font-size: 0.9rem; font-weight: 700; flex: 1 1 160px; }
+.wordbook-controls label:first-child { flex: 2 1 240px; }
+.wordbook-controls input, .wordbook-controls select { width: 100%; min-width: 0; min-height: 44px; padding: 0.5rem; border: 1px solid var(--border); border-radius: 5px; color: var(--text); background: var(--bg); font: inherit; }
+.wordbook-controls button, .word-card-actions button { min-height: 44px; padding: 0.5rem 0.8rem; font: inherit; background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 5px; cursor: pointer; }
+.wordbook-controls button:hover, .word-card-actions button:hover { border-color: var(--accent); }
+.wordbook-controls [data-wordbook-count] { flex-basis: 100%; margin: 0; font-weight: 700; }
+.wordbook-controls .wordbook-save-note { flex-basis: 100%; margin: 0; font-size: 0.8rem; color: var(--text-muted); }
+.word-card { margin: 1.2rem 0; padding: 1.2rem; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-elevated); scroll-margin-top: 1rem; }
+.word-card[hidden], .wordbook-empty[hidden] { display: none !important; }
+.word-card-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; font-size: 0.8rem; }
+.word-priority { font-weight: 700; padding: 0.2rem 0.55rem; border: 1px solid var(--border); border-radius: 4px; }
+.priority-A { color: var(--accent); border-color: var(--accent); }
+.word-card h3 { margin: 0.8rem 0 0.4rem; font-size: 1.15rem; }
+.wordbook-prompt { font-size: 0.9rem; color: var(--text-muted); margin: 0 0 0.8rem; }
+.word-answer { border-top: 1px solid var(--border); padding-top: 0.5rem; }
+.word-answer summary { cursor: pointer; min-height: 44px; padding: 0.4rem 0; color: var(--accent); font-weight: 700; }
+.word-answer p { margin: 0.6rem 0; }
+.word-card-actions { display: flex; gap: 0.5rem; margin-top: 0.7rem; }
+.word-card-actions button[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); font-weight: 700; }
+.word-card[data-state="learned"] [data-card-state] { font-weight: 700; }
+.word-card:target { border: 2px solid var(--accent); }
+@media (max-width: 600px) {
+  .priority-reasons { display: block; }
+  .priority-reasons dd { margin: 0.2rem 0 0.8rem; }
+  .wordbook-controls { padding: 0.8rem; }
+  .word-card { padding: 1rem; }
+}
+@media print {
+  .wordbook-controls, .word-card-actions, .wordbook-prompt { display: none; }
+  .word-card { break-inside: avoid; }
+}
+
+.wordbook-controls select:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }

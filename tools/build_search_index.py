@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "search-index.json"
 
-TARGET_DIRS = [".", "第0部", "第1部", "第2部", "第3部", "第4部", "第5部", "第6部", "第7部", "過去問/web"]
+TARGET_DIRS = [".", "用語集", "第0部", "第1部", "第2部", "第3部", "第4部", "第5部", "第6部", "第7部", "過去問/web"]
 
 
 class SectionExtractor(HTMLParser):

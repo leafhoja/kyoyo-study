@@ -29,7 +29,7 @@ def main():
     output.mkdir(parents=True, exist_ok=False)
     candidates = list(ROOT.glob("*.html")) + list(ROOT.glob("*.css")) + list(ROOT.glob("*.js"))
     candidates.append(ROOT / "search-index.json")
-    for folder in ["data", *(f"第{i}部" for i in range(8)), "過去問/web"]:
+    for folder in ["data", "用語集", *(f"第{i}部" for i in range(8)), "過去問/web"]:
         candidates.extend((ROOT / folder).rglob("*"))
     count = 0
     for source in sorted(set(candidates)):

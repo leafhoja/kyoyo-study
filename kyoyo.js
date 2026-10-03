@@ -30,7 +30,7 @@
     { title: "第6部 面接", href: BASE + "第6部/ch14.html" },
     { title: "第7部 総仕上げ", href: BASE + "第7部/ch15.html" },
     { title: "過去問・解説", href: BASE + "過去問/web/index.html" },
-    { title: "用語集", href: BASE + "用語集.html" }
+    { title: "単語帳", href: BASE + "用語集.html" }
   ];
 
   function injectHeader() {
