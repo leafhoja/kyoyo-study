@@ -1,0 +1,100 @@
+[
+  {
+    "questionId": "Q-CH6-3-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地理",
+    "chapterId": "ch6-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 1,
+    "questionText": "年間を通して降水量が少なく、砂漠やステップが広がる気候帯を何というか。",
+    "choices": [
+      "熱帯",
+      "乾燥帯",
+      "温帯",
+      "冷帯（亜寒帯）"
+    ],
+    "correctAnswer": 1,
+    "explanation": "乾燥帯は蒸発量が降水量を上回る気候帯で、砂漠気候とステップ気候に分かれます。熱帯は年間を通して気温が高く降水量も多い気候、冷帯は冬の寒さが厳しい気候です。",
+    "hints": [
+      "「乾燥」という名前から、どのような気候か推測してみましょう。"
+    ],
+    "tags": [
+      "人文科学",
+      "地理"
+    ],
+    "relatedChapterIds": [
+      "ch6-3"
+    ],
+    "forecastId": "F-2027A-CH6-3-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "地理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH6-3-L01-002",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地理",
+    "chapterId": "ch6-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 2,
+    "questionText": "山地が海に沈み、複雑に入り組んだ海岸線となる地形を何というか。",
+    "choices": [
+      "リアス式海岸",
+      "砂浜海岸",
+      "サンゴ礁海岸",
+      "断層海岸"
+    ],
+    "correctAnswer": 0,
+    "explanation": "リアス式海岸は、山地が海面下に沈むことで谷の部分に海水が入り込み、複雑に入り組んだ海岸線となる地形です。日本では三陸海岸などが該当します。",
+    "hints": [
+      "日本の三陸海岸が代表例として知られる地形です。"
+    ],
+    "tags": [
+      "人文科学",
+      "地理",
+      "地形"
+    ],
+    "relatedChapterIds": [
+      "ch6-3"
+    ]
+  },
+  {
+    "questionId": "Q-CH6-3-L01-003",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地理",
+    "chapterId": "ch6-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 3,
+    "questionText": "気候や土壌などの自然条件に合わせて、その土地に適した作物を栽培することを何というか。",
+    "choices": [
+      "適地適作",
+      "混合農業",
+      "焼畑農業",
+      "近郊農業"
+    ],
+    "correctAnswer": 0,
+    "explanation": "適地適作は、気候や土壌などの自然条件に合わせて、その土地に適した作物を栽培する考え方です。日本では、降水量の多い地域で稲作、比較的乾燥した地域で畑作が発達してきました。",
+    "hints": [
+      "「その土地に適した作物」という言葉の意味そのままです。"
+    ],
+    "tags": [
+      "人文科学",
+      "地理",
+      "農業"
+    ],
+    "relatedChapterIds": [
+      "ch6-3"
+    ]
+  }
+]

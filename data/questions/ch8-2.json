@@ -1,0 +1,101 @@
+[
+  {
+    "questionId": "Q-CH8-2-L02-001",
+    "type": "forecast",
+    "practiceCategory": "複数分野を横断する問題",
+    "field": "時事",
+    "chapterId": "ch8-2",
+    "difficultyLevel": 2,
+    "sequenceOrder": 1,
+    "questionText": "SDGs（持続可能な開発目標）は、2015年の国連サミットで採択され、2030年までの達成を目指す目標である。SDGsに定められている目標（ゴール）の数はいくつか。",
+    "choices": [
+      "8",
+      "17",
+      "20",
+      "30"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SDGsは17のゴール（目標）と、それらの下に定められた169のターゲットから構成されています。前身であるMDGs（ミレニアム開発目標、2000〜2015年）が8つの目標だったため、混同しないよう注意しましょう。",
+    "hints": [
+      "前身であるMDGs（ミレニアム開発目標）の目標数（8つ）と混同しないようにしましょう。"
+    ],
+    "tags": [
+      "時事",
+      "SDGs",
+      "国際"
+    ],
+    "relatedChapterIds": [
+      "ch8-2"
+    ],
+    "forecastId": "F-2027A-CH8-2-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "時事分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "中程度",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH8-2-L02-002",
+    "type": "practice",
+    "practiceCategory": "複数分野を横断する問題",
+    "field": "時事",
+    "chapterId": "ch8-2",
+    "difficultyLevel": 2,
+    "sequenceOrder": 2,
+    "questionText": "国際連合の安全保障理事会には、拒否権を持つ5か国の常任理事国がある。次のうち、常任理事国でない国はどれか。",
+    "choices": [
+      "日本",
+      "アメリカ",
+      "中国",
+      "フランス"
+    ],
+    "correctAnswer": 0,
+    "explanation": "安全保障理事会の常任理事国は、アメリカ・イギリス・フランス・ロシア・中国の5か国です。日本は常任理事国ではなく、2年任期で選出される非常任理事国として選出された実績はありますが、拒否権を持つ常任理事国には含まれません。",
+    "hints": [
+      "常任理事国は「米・英・仏・露・中」の5か国と覚えましょう。"
+    ],
+    "tags": [
+      "時事",
+      "国際機関",
+      "国連"
+    ],
+    "relatedChapterIds": [
+      "ch8-2"
+    ]
+  },
+  {
+    "questionId": "Q-CH8-2-L03-001",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "時事",
+    "chapterId": "ch8-2",
+    "difficultyLevel": 3,
+    "sequenceOrder": 3,
+    "questionText": "日本の衆議院議員総選挙で採用されている、小選挙区制と比例代表制を組み合わせた選挙制度を何というか。",
+    "choices": [
+      "小選挙区比例代表並立制",
+      "中選挙区制",
+      "完全連記制",
+      "大選挙区制"
+    ],
+    "correctAnswer": 0,
+    "explanation": "衆議院議員総選挙では、1つの選挙区から1名を選出する小選挙区制と、政党の得票数に応じて議席を配分する比例代表制を組み合わせた「小選挙区比例代表並立制」が採用されています。中選挙区制はかつて衆議院で採用されていた、1選挙区から複数名を選出する制度で、現在の衆議院選挙では使われていません。",
+    "hints": [
+      "「並立」という言葉から、2つの制度を組み合わせていることを連想しましょう。"
+    ],
+    "tags": [
+      "時事",
+      "選挙制度",
+      "政治"
+    ],
+    "relatedChapterIds": [
+      "ch8-2"
+    ]
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "questionId": "Q-CH5-3-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 1,
+    "questionText": "植物が光のエネルギーを使って水と二酸化炭素からデンプン（有機物）と酸素をつくる働きを何というか。",
+    "choices": [
+      "呼吸",
+      "光合成",
+      "蒸散",
+      "発酵"
+    ],
+    "correctAnswer": 1,
+    "explanation": "光合成は主に葉緑体で行われ、光エネルギーを使って二酸化炭素と水からデンプンなどの有機物と酸素をつくる働きです。呼吸はこれと逆に酸素を使ってエネルギーを取り出す働きです。",
+    "hints": [
+      "「光」を使って「合成」する、という言葉の意味そのままです。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ],
+    "forecastId": "F-2027A-CH5-3-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "生物分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-3-L02-001",
+    "type": "practice",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 2,
+    "sequenceOrder": 2,
+    "questionText": "光合成と呼吸の関係についての記述として最も適切なものはどれか。",
+    "choices": [
+      "光合成は呼吸とほぼ逆の反応であり、呼吸で生じた二酸化炭素と水を材料に、光合成で有機物と酸素がつくられる関係にある。",
+      "光合成は昼夜を問わず行われるが、呼吸は夜間のみ行われる。",
+      "呼吸は植物のみが行う現象であり、動物は呼吸を行わない。",
+      "光合成も呼吸も、いずれも酸素を放出する反応である。"
+    ],
+    "correctAnswer": 0,
+    "explanation": "呼吸は有機物と酸素を使って二酸化炭素・水・エネルギーを生み出す反応、光合成は光エネルギーを使って二酸化炭素と水から有機物と酸素をつくる反応です。生成物と材料がちょうど入れ替わった関係にあるため、選択肢1が最も適切です。選択肢2は逆です。光合成は光が必要なため昼間に行われ、呼吸は生物が生きている限り昼夜問わず絶えず行われます。選択肢3は誤りで、呼吸は動物・植物を問わずすべての生物が行います（植物も光合成と呼吸の両方を行います）。選択肢4も誤りで、酸素を放出するのは光合成のみです。呼吸は酸素を消費（吸収）する反応です。",
+    "hints": [
+      "呼吸の材料・生成物と、光合成の材料・生成物をそれぞれ書き出し、比較してみましょう。",
+      "「酸素を出す」のはどちらの反応だったか、5.4節を振り返りましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "光合成",
+      "呼吸"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-3-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 3,
+    "questionText": "植物の細胞にあり、動物の細胞にはない、光合成を行う細胞小器官はどれか。",
+    "choices": [
+      "葉緑体",
+      "核",
+      "ミトコンドリア",
+      "細胞膜"
+    ],
+    "correctAnswer": 0,
+    "explanation": "葉緑体は植物細胞のみが持つ細胞小器官で、光合成が行われる場所です。核（遺伝情報を含む）・ミトコンドリア（エネルギーを作り出す）・細胞膜（細胞を包む膜）は、動物細胞・植物細胞のどちらにも存在します。",
+    "hints": [
+      "「光合成」を行う場所であることに注目しましょう。動物は光合成をしません。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "細胞"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ],
+    "forecastId": "F-2027A-CH5-3-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "生物分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-3-L01-003",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 4,
+    "questionText": "遺伝情報を記録する物質で、1953年にワトソンとクリックが二重らせん構造を発見したものは何か。",
+    "choices": [
+      "DNA",
+      "タンパク質",
+      "ATP",
+      "葉緑素"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNA（デオキシリボ核酸）は遺伝情報を記録する物質で、1953年にワトソンとクリックがその二重らせん構造を発見しました。この発見は生物学における重要な転換点として知られています。",
+    "hints": [
+      "「二重らせん構造」というキーワードから連想される物質です。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "DNA"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ],
+    "forecastId": "F-2027A-CH5-3-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "生物分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-3-L02-002",
+    "type": "practice",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 2,
+    "sequenceOrder": 5,
+    "questionText": "生態系における生産者・消費者・分解者の組み合わせとして正しいものはどれか。",
+    "choices": [
+      "生産者＝植物、消費者＝動物、分解者＝微生物等",
+      "生産者＝動物、消費者＝植物、分解者＝微生物等",
+      "生産者＝微生物等、消費者＝植物、分解者＝動物",
+      "生産者・消費者・分解者はすべて同じ生物を指す"
+    ],
+    "correctAnswer": 0,
+    "explanation": "生態系では、光合成によって有機物を作り出す植物が「生産者」、生産者や他の消費者を食べる動物が「消費者」、生物の遺骸や排出物を分解する微生物等が「分解者」という役割を担っています。この3つの役割分担によって、生態系全体の物質循環が成り立っています。",
+    "hints": [
+      "「光合成をして自分で栄養を作れる」のはどの生物か、から考えましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "生態系"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-3-L01-004",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 6,
+    "questionText": "体温や血糖値などを一定範囲に保とうとする生体の仕組みを何というか。",
+    "choices": [
+      "恒常性（ホメオスタシス）",
+      "光合成",
+      "遺伝",
+      "食物連鎖"
+    ],
+    "correctAnswer": 0,
+    "explanation": "恒常性（ホメオスタシス）は、体内の環境（体温・血糖値・体液の濃度等）を一定範囲に保とうとする仕組みで、自律神経やホルモンの働きによって調節されています。",
+    "hints": [
+      "体温が上がると汗をかいて体温を下げる、というような身体の調節の仕組みです。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "恒常性"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ],
+    "forecastId": "F-2027A-CH5-3-004",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "生物分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-3-L01-005",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 7,
+    "questionText": "エンドウマメの交配実験から、生物の形質が親から子へ一定の規則性を持って受け継がれることを示した「遺伝の法則」を発見した人物は誰か。",
+    "choices": [
+      "メンデル",
+      "ダーウィン",
+      "パスツール",
+      "ワトソンとクリック"
+    ],
+    "correctAnswer": 0,
+    "explanation": "メンデルはエンドウマメの交配実験を通じて、遺伝の基本法則（優性の法則・分離の法則・独立の法則）を発見しました。ダーウィンは進化論（自然選択説）、パスツールは低温殺菌法や微生物学、ワトソンとクリックはDNAの二重らせん構造の発見で知られています。似た時代の科学者の業績を混同しないようにしましょう。",
+    "hints": [
+      "「メンデルの法則」という名前を聞いたことがないか思い出してみましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "遺伝"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ],
+    "forecastId": "F-2027A-CH5-3-005",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "生物分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-3-L01-006",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 8,
+    "questionText": "デンプンを分解する消化酵素はどれか。",
+    "choices": [
+      "アミラーゼ",
+      "ペプシン",
+      "リパーゼ",
+      "トリプシン"
+    ],
+    "correctAnswer": 0,
+    "explanation": "アミラーゼは唾液や膵液に含まれ、デンプンを分解する消化酵素です。ペプシン・トリプシンはタンパク質を分解する酵素、リパーゼは脂肪を分解する酵素で、それぞれ分解する対象が異なります。",
+    "hints": [
+      "唾液に含まれ、ご飯を噛み続けると甘く感じる現象と関係する酵素です。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "消化酵素"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ],
+    "forecastId": "F-2027A-CH5-3-006",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "生物分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-3-L01-007",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 9,
+    "questionText": "血液の成分のうち、酸素を運搬する働きを持つのはどれか。",
+    "choices": [
+      "赤血球",
+      "白血球",
+      "血小板",
+      "血漿"
+    ],
+    "correctAnswer": 0,
+    "explanation": "赤血球はヘモグロビンを含み、酸素を体の各部に運搬する働きを持ちます。白血球は免疫（体を守る）働き、血小板は血液を固める（止血の）働き、血漿は血液の液体成分で栄養分や老廃物を運びます。",
+    "hints": [
+      "血液が赤く見えるのは、この成分に含まれる色素（ヘモグロビン）によるものです。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "血液"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-3-L01-008",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 1,
+    "sequenceOrder": 10,
+    "questionText": "脳や脊髄からなり、判断や命令を担う神経系を何というか。",
+    "choices": [
+      "中枢神経系",
+      "末梢神経系",
+      "自律神経系",
+      "運動神経系"
+    ],
+    "correctAnswer": 0,
+    "explanation": "中枢神経系は脳と脊髄からなり、情報の統合・判断・命令の発信を担います。末梢神経系は中枢神経系と体の各部をつなぐ神経で、自律神経系（内臓の働き等を調節）や体性神経系（感覚・運動を伝える）を含みます。",
+    "hints": [
+      "「脳」と「脊髄」という2つの器官が含まれる神経系です。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "神経系"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-3-L02-003",
+    "type": "practice",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "生物",
+    "chapterId": "ch5-3",
+    "difficultyLevel": 2,
+    "sequenceOrder": 11,
+    "questionText": "体内に侵入した病原体を排除する働きを担う血液成分と、その働きの名称の組み合わせとして正しいものはどれか。",
+    "choices": [
+      "白血球－免疫",
+      "赤血球－免疫",
+      "血小板－免疫",
+      "血漿－免疫"
+    ],
+    "correctAnswer": 0,
+    "explanation": "白血球は体内に侵入した病原体を排除する働き（免疫）を担う血液成分です。赤血球は酸素運搬、血小板は止血、血漿は物質の運搬をそれぞれ担っており、免疫を直接担うのは白血球です。",
+    "hints": [
+      "血液成分のうち、酸素運搬（赤血球）でも止血（血小板）でもない働きを持つものを考えましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "生物",
+      "免疫"
+    ],
+    "relatedChapterIds": [
+      "ch5-3"
+    ]
+  }
+]

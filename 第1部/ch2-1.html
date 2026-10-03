@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#8b2f2f">
+<title>第2章-1　命題と論理 — 国家総合職〈教養区分〉学習サイト</title>
+<link rel="stylesheet" href="../kyoyo.css">
+<script src="../kyoyo.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="../index.html">国家総合職〈教養区分〉学習サイト</a>
+  <nav></nav>
+</header>
+<div class="chapter-layout">
+<aside class="sidebar">
+  <div class="sidebar-title">目次</div>
+  <ul class="sidebar-nav">
+    <li><a href="#s211">2-1.1 命題論理で何が問われるか</a></li>
+    <li><a href="#s212">2-1.2 命題・対偶・逆・裏</a></li>
+    <li><a href="#s213">2-1.3 三段論法</a></li>
+    <li><a href="#s214">2-1.4 ド・モルガンの法則</a></li>
+    <li><a href="#s215">2-1.5 確認〜標準問題</a></li>
+    <li><a href="#s219">2-1.9 この章のまとめ</a></li>
+  </ul>
+</aside>
+<main class="main-content">
+<div class="crumbs"><a href="../index.html">ホーム</a> › 第1部 › <a href="ch2.html">判断推理</a> › 命題と論理</div>
+<div class="chapter-header">
+  <div class="chapter-badge">第1部　基礎能力試験対策・知能分野・判断推理</div>
+  <h1>第2章-1　命題と論理</h1>
+  <p class="abstract">「AならばB」という命題から確実に言えることを判定する技術を、対偶・三段論法・ド・モルガンの法則という3つの道具を使ってゼロから身につけます。</p>
+</div>
+
+<h2 id="s211">2-1.1　命題論理で何が問われるか</h2>
+<p>命題論理は、発言や条件から確実に言えることを判定する問題です。判断推理の他の系統（対応関係・順序関係等）を解くうえでも、対偶や三段論法の考え方は繰り返し登場する基礎技術です。</p>
+<div class="box box-def">
+  <div class="box-head"><span class="box-tag">定義 2.1</span>命題とは</div>
+  <div class="box-body">
+    <p><strong>命題</strong>とは、正しいか正しくないか（真偽）がはっきり決まる文のことです。「AならばB」という形の命題に対して、次の3つの関連する文が存在します。</p>
+    <ul>
+      <li><strong>逆</strong>：「BならばA」（AとBを入れ替えたもの）</li>
+      <li><strong>裏</strong>：「AでないならBでない」（両方を否定したもの）</li>
+      <li><strong>対偶</strong>：「BでないならAでない」（入れ替えて、かつ両方を否定したもの）</li>
+    </ul>
+  </div>
+</div>
+
+<h2 id="s212">2-1.2　命題・対偶・逆・裏</h2>
+<div class="box box-thm">
+  <div class="box-head"><span class="box-tag">定理 2.1</span>対偶だけが元の命題と真偽が一致する</div>
+  <div class="box-body">
+    <p>元の命題「AならばB」が正しいとき、<strong>対偶「BでないならAでない」は必ず正しく</strong>なります。一方、逆・裏は元の命題が正しくても、正しいとは限りません。</p>
+    <p>具体例で確認しましょう。「東京都民ならば日本国民である」という命題は正しいです。この対偶「日本国民でないなら東京都民でない」も正しいですね。しかし逆「日本国民ならば東京都民である」は誤りです（大阪府民も日本国民ですが東京都民ではありません）。このように、逆・裏は元の命題とは独立に真偽を確認する必要があります。</p>
+  </div>
+</div>
+<div class="box box-ex">
+  <div class="box-head"><span class="box-tag">例題</span>対偶を使った推論</div>
+  <div class="box-body"><p>「AならばB」が正しく、実際にはBが成り立たなかったとき、対偶「BでないならAでない」より、確実にAも成り立たないと言えます。この推論の型は「モーダストレンス（後件否定）」と呼ばれ、判断推理の真偽判定問題で頻出です。</p></div>
+</div>
+
+<h2 id="s213">2-1.3　三段論法</h2>
+<div class="box box-thm">
+  <div class="box-head"><span class="box-tag">定理 2.2</span>三段論法（推移律）</div>
+  <div class="box-body">
+    <p>「AならばB」「BならばC」がともに正しいとき、「AならばC」も確実に正しいと言えます。これを三段論法（推移律）と呼びます。複数の命題が与えられたときは、A→B、B→Cのように矢印でつなげて、1本の鎖にできないかをまず確認しましょう。3つ以上の命題がつながることもよくあります。</p>
+  </div>
+</div>
+
+<h2 id="s214">2-1.4　ド・モルガンの法則</h2>
+<div class="box box-thm">
+  <div class="box-head"><span class="box-tag">定理 2.3</span>「かつ」「または」の否定</div>
+  <div class="box-body">
+    <p>「AかつB」の否定は「Aでない、またはBでない」になります。「AまたはB」の否定は「AでないかつBでない」になります。否定すると「かつ」と「または」が入れ替わる、というのがこの法則（ド・モルガンの法則）のポイントです。真偽判定問題で、ある発言の否定を考えるときによく使います。</p>
+  </div>
+</div>
+
+<h2 id="s215">2-1.5　確認〜標準問題（Level0〜3）</h2>
+<p>命題・対偶・逆・裏の関係、三段論法、ド・モルガンの法則について、一問一答から複数の知識を組み合わせる問題まで練習します。</p>
+<div id="quiz-container"></div>
+
+<h2>2-1.7〜2-1.8　実戦問題・過去問</h2>
+<div class="box box-imp">
+  <div class="box-head"><span class="box-tag">過去問への入口</span>公式の試験問題例</div>
+  <div class="box-body">
+    <p>判断推理の実際の過去問は、人事院公式サイトで公開されている試験問題例で確認できます。著作権に配慮し、本サイトでは問題文を転載せず参照にとどめます。</p>
+    <p><a href="https://www.jinji.go.jp/saiyo/siken/mondairei/mondairei_14.html" target="_blank" rel="noopener">試験問題例 総合職（大卒）教養区分｜国家公務員試験採用情報NAVI（人事院公式サイト）</a></p>
+  </div>
+</div>
+
+<h2 id="s219">2-1.9　この章のまとめ</h2>
+<div class="box box-imp">
+  <div class="box-head"><span class="box-tag">まとめ</span>命題論理の要点</div>
+  <div class="box-body"><p>対偶だけが元の命題と真偽が一致する、三段論法でA→B→CをA→Cにつなげる、ド・モルガンの法則で「かつ」と「または」が入れ替わる。次は対応関係に進みましょう。</p></div>
+</div>
+
+<nav class="chapter-nav">
+  <a href="ch2.html" class="prev">← 判断推理（章一覧）</a>
+  <a href="ch2-2.html" class="next">第2章-2　対応関係 →</a>
+</nav>
+</main>
+</div>
+<script src="../history.js"></script>
+<script src="../quiz.js"></script>
+<script>
+  window.KyoyoHistory.markChapterViewed("ch2-1");
+  window.KyoyoQuiz.loadAndRender(document.getElementById("quiz-container"), "../data/questions/ch2-1.json");
+</script>
+</body>
+</html>

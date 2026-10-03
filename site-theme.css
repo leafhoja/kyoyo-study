@@ -1,0 +1,70 @@
+/*
+ * 国家総合職〈教養区分〉 統合デザイン tokens
+ *
+ * 通常の学習ページ（kyoyo.css）と過去問Web版（過去問/web/style.css）が
+ * 同じ視覚言語を使うための共有値。ページ固有のレイアウトは各CSSに残す。
+ */
+
+:root {
+  --site-font: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  --site-font-serif: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --site-bg: #f5f3ee;
+  --site-surface: #fffdf9;
+  --site-surface-strong: #ffffff;
+  --site-text: #182a35;
+  --site-muted: #6d7a7c;
+  --site-border: #e2e3dc;
+  --site-accent: #0d6b6b;
+  --site-accent-strong: #084f52;
+  --site-accent-soft: #e1f0ee;
+  --site-accent-contrast: #ffffff;
+  --site-secondary: #e18448;
+  --site-secondary-soft: #fff0e4;
+  --site-correct: #2f6b3f;
+  --site-incorrect: #a14943;
+  --site-focus: #2f6bd9;
+  --site-shadow: 0 8px 24px rgba(25, 52, 54, 0.08);
+  --site-radius-sm: 8px;
+  --site-radius-md: 13px;
+  --site-radius-lg: 18px;
+}
+
+:root[data-theme="dark"] {
+  --site-bg: #142124;
+  --site-surface: #1b2d30;
+  --site-surface-strong: #203639;
+  --site-text: #edf4ef;
+  --site-muted: #afc2c0;
+  --site-border: #345054;
+  --site-accent: #76d2c7;
+  --site-accent-strong: #b6f0e8;
+  --site-accent-soft: #244647;
+  --site-accent-contrast: #142124;
+  --site-secondary: #f1a36c;
+  --site-secondary-soft: #4b3429;
+  --site-correct: #7acb8a;
+  --site-incorrect: #f09a91;
+  --site-focus: #8db9ff;
+  --site-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --site-bg: #142124;
+    --site-surface: #1b2d30;
+    --site-surface-strong: #203639;
+    --site-text: #edf4ef;
+    --site-muted: #afc2c0;
+    --site-border: #345054;
+    --site-accent: #76d2c7;
+    --site-accent-strong: #b6f0e8;
+    --site-accent-soft: #244647;
+    --site-accent-contrast: #142124;
+    --site-secondary: #f1a36c;
+    --site-secondary-soft: #4b3429;
+    --site-correct: #7acb8a;
+    --site-incorrect: #f09a91;
+    --site-focus: #8db9ff;
+    --site-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+  }
+}

@@ -1,0 +1,214 @@
+[
+  {
+    "questionId": "Q-CH6-2-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "世界史",
+    "chapterId": "ch6-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 1,
+    "questionText": "18世紀後半にイギリスで始まった、蒸気機関の実用化などにより工場での機械生産が広がった一連の変革を何というか。",
+    "choices": [
+      "産業革命",
+      "宗教改革",
+      "名誉革命",
+      "ルネサンス"
+    ],
+    "correctAnswer": 0,
+    "explanation": "産業革命は18世紀後半のイギリスで、蒸気機関の実用化を中心に、手工業から工場での機械生産へと移行した変革です。宗教改革は16世紀の宗教上の変革、名誉革命は17世紀のイギリスの政治的変革、ルネサンスは14〜16世紀のヨーロッパでの文芸復興運動で、いずれも時代や性質が異なります。",
+    "hints": [
+      "「蒸気機関」「工場」というキーワードから連想してみましょう。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "産業革命"
+    ],
+    "relatedChapterIds": [
+      "ch6-2"
+    ],
+    "forecastId": "F-2027A-CH6-2-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "世界史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH6-2-L03-001",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "世界史",
+    "chapterId": "ch6-2",
+    "difficultyLevel": 3,
+    "sequenceOrder": 2,
+    "questionText": "次のできごとを、年代の古い順に並べ替えたとき、正しい順序はどれか。\nA　産業革命（イギリス）\nB　ルネサンス\nC　日清戦争\nD　宗教改革",
+    "choices": [
+      "B→D→A→C",
+      "D→B→A→C",
+      "B→A→D→C",
+      "D→A→B→C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ルネサンス（14〜16世紀）→ 宗教改革（16世紀）→ 産業革命（18世紀後半）→ 日清戦争（1894〜95年）の順です。ルネサンスと宗教改革はともに14〜16世紀ですが、ルネサンスの方がやや早く始まっており、宗教改革はルネサンス期の後半から本格化したという流れで押さえておきましょう。世界史と日本史が混在する年代整序問題では、それぞれの大まかな世紀を思い出し、世紀の早い順に並べる、という手順が有効です。",
+    "hints": [
+      "まず、それぞれのできごとがおおよそ何世紀のことだったかを思い出しましょう。",
+      "ルネサンスと宗教改革は近い時代ですが、どちらが先に始まったかを整理しましょう。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "年代整序"
+    ],
+    "relatedChapterIds": [
+      "ch6-2"
+    ]
+  },
+  {
+    "questionId": "Q-CH6-2-L04-001",
+    "type": "practice",
+    "practiceCategory": "実戦問題",
+    "field": "世界史",
+    "chapterId": "ch6-2",
+    "difficultyLevel": 4,
+    "sequenceOrder": 3,
+    "questionText": "次のA〜Dを、年代の古い順に並べ替えたとき、正しい順序はどれか。\nA　ソクラテスによる問答法の実践（古代ギリシャ）\nB　宗教改革\nC　明治維新\nD　ルネサンス",
+    "choices": [
+      "A→D→B→C",
+      "D→A→B→C",
+      "A→B→D→C",
+      "D→B→A→C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ソクラテス（紀元前5世紀の古代ギリシャ）→ ルネサンス（14〜16世紀）→ 宗教改革（16世紀）→ 明治維新（1868年前後）の順です。古代ギリシャの思想と、それより2000年近く後のルネサンス・宗教改革を混同しないことがまず重要です。ルネサンスと宗教改革はともに16世紀に重なりますが、ルネサンスの方がやや早く始まっているため先に置きます。思想（第6.4節）と歴史（第6.2節）という異なる節で学んだ知識を、1つの時間軸の上に並べ直す点がこの問題の難しさです。",
+    "hints": [
+      "古代ギリシャの思想家の年代を、他の3つのできごとと比べてまず大きく離しておきましょう。",
+      "ルネサンスと宗教改革の前後関係を、6.2節・6.5節の記述から思い出しましょう。"
+    ],
+    "tags": [
+      "人文科学",
+      "年代整序",
+      "実戦問題"
+    ],
+    "relatedChapterIds": [
+      "ch6-2"
+    ]
+  },
+  {
+    "questionId": "Q-CH6-2-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "世界史",
+    "chapterId": "ch6-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 4,
+    "questionText": "1789年に始まり、「人間と市民の権利の宣言（人権宣言）」で自由・平等・人民主権の理念を掲げた革命はどれか。",
+    "choices": [
+      "フランス革命",
+      "産業革命",
+      "名誉革命",
+      "ロシア革命"
+    ],
+    "correctAnswer": 0,
+    "explanation": "フランス革命は1789年に始まり、封建的な身分制度を打倒し、人権宣言によって自由・平等・人民主権の理念を掲げました。絶対王政から近代市民社会への転換点として、産業革命（18世紀後半のイギリス）とほぼ同時代に位置づけられます。",
+    "hints": [
+      "「人権宣言」という文書が採択された革命です。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "世界史"
+    ],
+    "relatedChapterIds": [
+      "ch6-2"
+    ],
+    "forecastId": "F-2027A-CH6-2-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "世界史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH6-2-L01-003",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "世界史",
+    "chapterId": "ch6-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 5,
+    "questionText": "1914年から1918年にかけて、ヨーロッパを主戦場に戦われた大規模な戦争はどれか。",
+    "choices": [
+      "第一次世界大戦",
+      "第二次世界大戦",
+      "日露戦争",
+      "冷戦"
+    ],
+    "correctAnswer": 0,
+    "explanation": "第一次世界大戦は1914〜1918年、ヨーロッパを主戦場に戦われた戦争です。戦後のパリ講和会議・国際連盟の設立（1920年）につながりました。日本の日清戦争（1894〜95年）・日露戦争（1904〜05年）より後の時代に位置づけられます。",
+    "hints": [
+      "「第一次」「第二次」の世界大戦の年代の違いを整理しておきましょう。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "世界史"
+    ],
+    "relatedChapterIds": [
+      "ch6-2"
+    ],
+    "forecastId": "F-2027A-CH6-2-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "世界史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH6-2-L01-004",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "世界史",
+    "chapterId": "ch6-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 6,
+    "questionText": "第二次世界大戦後、アメリカを中心とする西側陣営とソ連を中心とする東側陣営が、直接戦火を交えずに対立した状態を何というか。",
+    "choices": [
+      "冷戦",
+      "熱戦",
+      "代理戦争",
+      "内戦"
+    ],
+    "correctAnswer": 0,
+    "explanation": "冷戦は第二次世界大戦後（1945年〜）の東西両陣営の対立状態を指し、1989年のベルリンの壁崩壊、1991年のソ連解体によって終結しました。「代理戦争」は冷戦下で両陣営が間接的に関与した個別の紛争を指す言葉であり、冷戦そのものとは異なる概念です。",
+    "hints": [
+      "「熱い戦争（実際の戦闘）」ではない対立状態、という意味の言葉です。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "世界史"
+    ],
+    "relatedChapterIds": [
+      "ch6-2"
+    ]
+  }
+]

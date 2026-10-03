@@ -1,0 +1,182 @@
+[
+  {
+    "questionId": "Q-CH2-1-L00-001",
+    "type": "forecast",
+    "practiceCategory": "問題形式を理解するための導入問題",
+    "field": "判断推理",
+    "chapterId": "ch2-1",
+    "difficultyLevel": 0,
+    "sequenceOrder": 1,
+    "questionText": "命題「Aならば B」の対偶として正しいものはどれか。",
+    "choices": [
+      "Bならば A",
+      "AでないならばBでない",
+      "BでないならばAでない",
+      "Aでないならば Bでない、を否定したもの"
+    ],
+    "correctAnswer": 2,
+    "explanation": "命題「AならばB」の対偶は「BでないならAでない」です。「BならばA」は逆、「AでないならBでない」は裏と呼ばれ、対偶とは異なります（対偶のみ元の命題と真偽が一致します）。",
+    "hints": [
+      "ch2.2の「命題・対偶・逆・裏の関係図」を確認しましょう。"
+    ],
+    "tags": [
+      "判断推理",
+      "命題"
+    ],
+    "relatedChapterIds": [
+      "ch2-1"
+    ],
+    "forecastId": "F-2027A-CH2-1-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "判断推理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH2-1-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "判断推理",
+    "chapterId": "ch2-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 2,
+    "questionText": "「雨が降れば、遠足は中止になる」という命題が正しいとき、確実に言えるのはどれか。",
+    "choices": [
+      "遠足が中止になったので、雨が降った。",
+      "遠足が中止にならなかったので、雨は降らなかった。",
+      "雨が降らなかったので、遠足は中止にならなかった。",
+      "遠足が中止になったので、雨は降らなかった。"
+    ],
+    "correctAnswer": 1,
+    "explanation": "元の命題の対偶「遠足が中止にならなければ、雨は降らない」は元の命題と真偽が一致するため確実に言えます。選択肢2はこの対偶と同じ内容です。選択肢1・3は逆・裏にあたり、元の命題からは確実に言えません。",
+    "hints": [
+      "「対偶だけが元の命題と同じ真偽を持つ」という原則を思い出しましょう。"
+    ],
+    "tags": [
+      "判断推理",
+      "命題",
+      "対偶"
+    ],
+    "relatedChapterIds": [
+      "ch2-1"
+    ],
+    "forecastId": "F-2027A-CH2-1-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "判断推理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH2-1-L00-002",
+    "type": "forecast",
+    "practiceCategory": "用語を確認する問題",
+    "field": "判断推理",
+    "chapterId": "ch2-1",
+    "difficultyLevel": 0,
+    "sequenceOrder": 3,
+    "questionText": "「AかつB」が成り立たないことを、AとBそれぞれの否定を使って正しく言い換えるとどうなるか。",
+    "choices": [
+      "Aでない、またはBでない",
+      "AでないかつBでない",
+      "AまたはB",
+      "AでないかつB"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「AかつB」の否定は「Aでない、またはBでない」になります（ド・モルガンの法則）。「かつ」を否定すると「または」に変わり、それぞれの命題も否定される、という点がポイントです。逆に「AまたはB」の否定は「AでないかつBでない」になります。",
+    "hints": [
+      "「かつ」を否定すると「または」に変わる、という組み合わせのルールを覚えましょう。"
+    ],
+    "tags": [
+      "判断推理",
+      "命題",
+      "ド・モルガンの法則"
+    ],
+    "relatedChapterIds": [
+      "ch2-1"
+    ],
+    "forecastId": "F-2027A-CH2-1-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "判断推理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH2-1-L01-002",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "判断推理",
+    "chapterId": "ch2-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 4,
+    "questionText": "「AならばB」「BならばC」がともに正しいとき、確実に言えるのはどれか。",
+    "choices": [
+      "AならばC",
+      "CならばA",
+      "BならばA",
+      "AとCは無関係である"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「AならばB」「BならばC」が両方正しいとき、これらをつなげて「AならばC」が確実に言えます（三段論法）。これは判断推理の真偽判定問題で最も基本的な推論の型の1つです。「CならばA」「BならばA」はいずれも与えられた命題からは確実に言えません。",
+    "hints": [
+      "A→B、B→Cという2つの矢印をつなげると、A→〇という1本の矢印ができないか考えてみましょう。"
+    ],
+    "tags": [
+      "判断推理",
+      "命題",
+      "三段論法"
+    ],
+    "relatedChapterIds": [
+      "ch2-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH2-1-L01-003",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "判断推理",
+    "chapterId": "ch2-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 5,
+    "questionText": "「AならばB」が正しく、かつ実際にはBが成り立たなかったとき、確実に言えるのはどれか。",
+    "choices": [
+      "Aは成り立たない",
+      "Aは成り立つ",
+      "Bは成り立つ",
+      "AともBとも無関係である"
+    ],
+    "correctAnswer": 0,
+    "explanation": "対偶「BでないならAでない」は元の命題「AならばB」と真偽が一致します。Bが成り立たない（＝Bでない）ことが分かっているので、対偶よりAでないことが確実に言えます。この推論の型は「モーダストレンス（後件否定）」と呼ばれます。",
+    "hints": [
+      "「BでないならAでない」という対偶を作ってみましょう。"
+    ],
+    "tags": [
+      "判断推理",
+      "命題",
+      "対偶"
+    ],
+    "relatedChapterIds": [
+      "ch2-1"
+    ]
+  }
+]

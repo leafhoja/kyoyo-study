@@ -1,0 +1,323 @@
+[
+  {
+    "questionId": "Q-CH7-1-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 1,
+    "questionText": "一定の年齢に達したすべての国民に選挙権を与える原則を何というか。",
+    "choices": [
+      "普通選挙",
+      "平等選挙",
+      "秘密選挙",
+      "直接選挙"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「普通選挙」は、財産や納税額などの条件を設けず、一定年齢に達したすべての国民に選挙権を与える原則です。「平等選挙」は一人一票を原則とすること、「秘密選挙」は誰に投票したか分からないようにすること、「直接選挙」は有権者が直接代表を選ぶことを指します。",
+    "hints": [
+      "「普通」という言葉から、条件を設けず広く選挙権を認める原則だと推測できます。"
+    ],
+    "tags": [
+      "社会科学",
+      "政治"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ],
+    "forecastId": "F-2027A-CH7-1-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "政治分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH7-1-L02-001",
+    "type": "forecast",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 2,
+    "sequenceOrder": 2,
+    "questionText": "国際連合の主要機関のうち、国際の平和と安全の維持について主要な責任を負い、常任理事国5か国が拒否権を持つ機関はどれか。",
+    "choices": [
+      "安全保障理事会",
+      "総会",
+      "経済社会理事会",
+      "国際司法裁判所"
+    ],
+    "correctAnswer": 0,
+    "explanation": "安全保障理事会は、国際の平和と安全の維持に主要な責任を負う機関で、常任理事国5か国（アメリカ・ロシア・中国・イギリス・フランス）が拒否権を持ちます。総会はすべての加盟国が参加し一国一票で議決する機関、経済社会理事会は経済・社会分野の国際協力を扱う機関、国際司法裁判所は国家間の紛争を法的に解決する機関で、それぞれ役割が異なります。",
+    "hints": [
+      "「拒否権」という言葉と結びつく機関を思い出しましょう。"
+    ],
+    "tags": [
+      "社会科学",
+      "政治",
+      "国際機関"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ],
+    "forecastId": "F-2027A-CH7-1-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "政治分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "中程度",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH7-1-L03-001",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 3,
+    "sequenceOrder": 3,
+    "questionText": "次のA〜Dの記述のうち、誤っているものはどれか。\nA　三権分立とは、立法権・行政権・司法権を分離し、互いに抑制させる仕組みである。\nB　普通選挙とは、一定の税金を納めた者にのみ選挙権を与える原則である。\nC　他の条件が変わらない場合、価格が上昇すると一般に需要量は減少する。\nD　累進課税とは、所得が多いほど税率が高くなる課税方式である。",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bが誤りです。普通選挙は、納税額や財産などの条件を設けず、一定年齢に達したすべての国民に選挙権を与える原則です。「一定の税金を納めた者にのみ」選挙権を与えるのは、普通選挙が確立する以前の「制限選挙」の説明であり、正反対の内容になっています。Aは三権分立の定義として正しく、Cは需要と供給の基本関係として正しく、Dは累進課税の定義として正しい記述です。似た響きの制度用語（普通選挙と制限選挙等）を正反対の説明とすり替えるひっかけに注意しましょう。",
+    "hints": [
+      "各選択肢を1つずつ、これまで学んだ定義と照らし合わせて検証しましょう。",
+      "「普通選挙」という名前が持つ「特別な条件を設けない」というニュアンスを思い出しましょう。"
+    ],
+    "tags": [
+      "社会科学",
+      "分野横断"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH7-1-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 4,
+    "questionText": "内閣が国会の信任に基づいて成立し、国会に対して連帯して責任を負う制度を何というか。",
+    "choices": [
+      "議院内閣制",
+      "大統領制",
+      "君主制",
+      "地方自治制度"
+    ],
+    "correctAnswer": 0,
+    "explanation": "議院内閣制は、内閣が国会の信任に基づいて成立し、国会に対して連帯責任を負う制度です。日本はこの制度を採用しており、内閣総理大臣は国会議員の中から国会の議決で指名されます。国民が大統領を直接選ぶ大統領制（アメリカ等）とは仕組みが異なります。",
+    "hints": [
+      "日本の内閣総理大臣は、国民が直接選ぶのではなく、国会が指名する、という点を思い出しましょう。"
+    ],
+    "tags": [
+      "社会科学",
+      "政治",
+      "議院内閣制"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ],
+    "forecastId": "F-2027A-CH7-1-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "政治分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH7-1-L01-003",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 5,
+    "questionText": "日本の国会において、予算の議決や内閣不信任決議などで、参議院より強い権限が認められている議院はどれか。",
+    "choices": [
+      "衆議院",
+      "参議院",
+      "両院とも同等の権限である",
+      "どちらでもない第三の機関が決定する"
+    ],
+    "correctAnswer": 0,
+    "explanation": "衆議院は任期が短く（4年）解散もあるため、より民意を反映しやすいと考えられており、予算の議決・内閣不信任決議などで参議院より強い権限（衆議院の優越）が認められています。",
+    "hints": [
+      "「衆議院の優越」という言葉を思い出しましょう。"
+    ],
+    "tags": [
+      "社会科学",
+      "政治",
+      "二院制"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ],
+    "forecastId": "F-2027A-CH7-1-004",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "政治分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH7-1-L02-002",
+    "type": "forecast",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 2,
+    "sequenceOrder": 6,
+    "questionText": "経済的・政治的統合を進め、多くの加盟国が共通通貨ユーロを導入している地域機構と、自由貿易の促進と貿易紛争の解決を目的とする世界規模の国際機関の組み合わせとして正しいものはどれか。",
+    "choices": [
+      "地域機構＝EU、世界規模の国際機関＝WTO",
+      "地域機構＝WTO、世界規模の国際機関＝EU",
+      "どちらもEUである",
+      "どちらもWTOである"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EU（欧州連合）はヨーロッパの地域的な経済的・政治的統合を進める機構、WTO（世界貿易機関）は世界規模で自由貿易のルール形成と紛争解決を担う国際機関です。「地域的な統合」か「世界規模のルール形成」かという違いで区別しましょう。",
+    "hints": [
+      "「ヨーロッパの地域統合」と「世界規模の貿易ルール」、どちらがどちらの機関か整理しましょう。"
+    ],
+    "tags": [
+      "社会科学",
+      "国際機関",
+      "EU",
+      "WTO"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ],
+    "forecastId": "F-2027A-CH7-1-005",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "政治分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "中程度",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH7-1-L02-003",
+    "type": "practice",
+    "practiceCategory": "典型問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 2,
+    "sequenceOrder": 7,
+    "questionText": "衆議院で内閣不信任決議案が可決された場合、内閣がとりうる対応として正しいものはどれか。",
+    "choices": [
+      "10日以内に衆議院を解散するか、内閣総辞職する",
+      "ただちに参議院を解散する",
+      "不信任決議を無視して、そのまま職務を続ける",
+      "最高裁判所に違憲審査を求める"
+    ],
+    "correctAnswer": 0,
+    "explanation": "内閣不信任決議案が可決された場合、内閣は10日以内に衆議院を解散するか、内閣総辞職しなければなりません（憲法69条）。日本国憲法には参議院を解散する制度自体が存在しないため、選択肢2は誤りです。",
+    "hints": [
+      "日本国憲法には、そもそも「参議院の解散」という制度自体が存在しません。"
+    ],
+    "tags": [
+      "社会科学",
+      "政治",
+      "内閣"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH7-1-L03-002",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 3,
+    "sequenceOrder": 8,
+    "questionText": "地方自治において、有権者の一定割合以上の署名を集めることで、住民が条例の制定・改廃を首長に請求できる制度を何というか。",
+    "choices": [
+      "条例の制定・改廃請求",
+      "住民投票（レファレンダム）",
+      "解職請求（リコール）",
+      "国民審査"
+    ],
+    "correctAnswer": 0,
+    "explanation": "条例の制定・改廃請求は、有権者の一定割合以上の署名により、住民が条例の制定や改廃を首長に請求できる直接請求権の一つです。解職請求（リコール）は首長や議員等の解職を求める別の直接請求権、住民投票は特定の議案について住民全体の意思を問う制度、国民審査は最高裁判所裁判官を対象とする国政レベルの制度で、地方自治の直接請求権とは異なります。",
+    "hints": [
+      "「条例の制定・改廃」を求める請求と、「人（首長・議員）の解職」を求める請求を区別しましょう。"
+    ],
+    "tags": [
+      "社会科学",
+      "地方自治",
+      "直接請求権"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH7-1-L04-001",
+    "type": "practice",
+    "practiceCategory": "実戦問題",
+    "field": "政治",
+    "chapterId": "ch7-1",
+    "difficultyLevel": 4,
+    "sequenceOrder": 9,
+    "questionText": "条約の締結は内閣の権限であるが、その締結には事前に、又は事後に、どの機関の承認を必要とするとされているか。",
+    "choices": [
+      "国会",
+      "最高裁判所",
+      "内閣法制局",
+      "会計検査院"
+    ],
+    "correctAnswer": 0,
+    "explanation": "条約の締結は内閣の権限ですが、憲法上、事前に（時宜によっては事後に）国会の承認を経ることが必要とされています。最高裁判所は違憲審査等を担う司法機関、内閣法制局は法案の審査等を行う内閣の補助機関、会計検査院は国の収入支出の検査を行う機関で、いずれも条約締結の承認機関ではありません。",
+    "hints": [
+      "条約の「締結」と「承認」は別の機関が担っています。「締結」は内閣の権限でした。"
+    ],
+    "tags": [
+      "社会科学",
+      "政治",
+      "条約"
+    ],
+    "relatedChapterIds": [
+      "ch7-1"
+    ]
+  }
+]

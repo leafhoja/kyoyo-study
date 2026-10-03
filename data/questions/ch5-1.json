@@ -1,0 +1,325 @@
+[
+  {
+    "questionId": "Q-CH5-1-L00-001",
+    "type": "forecast",
+    "practiceCategory": "用語を確認する問題",
+    "field": "物理",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 0,
+    "sequenceOrder": 1,
+    "questionText": "「外から力がはたらかない限り、静止している物体は静止し続け、動いている物体は等速直線運動を続ける」という法則を何というか。",
+    "choices": [
+      "運動の第一法則（慣性の法則）",
+      "運動の第二法則",
+      "作用・反作用の法則",
+      "エネルギー保存の法則"
+    ],
+    "correctAnswer": 0,
+    "explanation": "これはニュートンの運動の第一法則、通称「慣性の法則」です。物体には現在の運動状態を保とうとする性質（慣性）があります。",
+    "hints": [
+      "電車が急停止すると体が前に投げ出されそうになる現象と関係があります。"
+    ],
+    "tags": [
+      "自然科学",
+      "物理"
+    ],
+    "relatedChapterIds": [
+      "ch5-1"
+    ],
+    "forecastId": "F-2027A-CH5-1-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "物理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-1-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "物理",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 2,
+    "questionText": "物体に力を加えたときに生じる加速度の関係を表す「力＝質量×加速度」という式を何というか。",
+    "choices": [
+      "運動方程式（運動の第二法則）",
+      "慣性の法則（運動の第一法則）",
+      "作用・反作用の法則（運動の第三法則）",
+      "エネルギー保存の法則"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「力＝質量×加速度（F＝ma）」はニュートンの運動の第二法則、通称「運動方程式」です。同じ力を加えても、質量が大きい物体ほど加速度は小さくなります。慣性の法則（第一法則）は力が働かないときの運動、作用・反作用の法則（第三法則）は2つの物体間で及ぼし合う力についての法則で、それぞれ扱う内容が異なります。",
+    "hints": [
+      "「F＝ma」という式そのものの名前を思い出しましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "物理",
+      "運動方程式"
+    ],
+    "relatedChapterIds": [
+      "ch5-1"
+    ],
+    "forecastId": "F-2027A-CH5-1-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "物理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-1-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "物理",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 3,
+    "questionText": "壁を押すと、壁からも同じ大きさで逆向きの力を受ける。この現象を説明する法則はどれか。",
+    "choices": [
+      "作用・反作用の法則",
+      "慣性の法則",
+      "エネルギー保存の法則",
+      "オームの法則"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ある物体が別の物体に力（作用）を及ぼすとき、必ず同じ大きさで逆向きの力（反作用）を相手から受けます。これを作用・反作用の法則（運動の第三法則）といいます。「力のつり合い」は同一の物体に働く複数の力が打ち消し合う状態を指し、作用・反作用（異なる2つの物体の間で働く力の関係）とは区別されます。",
+    "hints": [
+      "「作用」と「反作用」は、必ず異なる2つの物体の間で生じる力のペアです。"
+    ],
+    "tags": [
+      "自然科学",
+      "物理",
+      "作用反作用"
+    ],
+    "relatedChapterIds": [
+      "ch5-1"
+    ],
+    "forecastId": "F-2027A-CH5-1-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "物理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-1-L02-001",
+    "type": "practice",
+    "practiceCategory": "典型問題",
+    "field": "物理",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 2,
+    "sequenceOrder": 4,
+    "questionText": "ある電気回路で、電圧が12V、抵抗が4Ωのとき、流れる電流は何Aか。",
+    "choices": [
+      "2A",
+      "3A",
+      "4A",
+      "48A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "オームの法則より、電流＝電圧÷抵抗＝12(V)÷4(Ω)＝3(A) です。電圧・電流・抵抗のうち2つが分かれば残り1つを求められる、という基本関係を確認しましょう。",
+    "hints": [
+      "オームの法則「電流＝電圧÷抵抗」に数値を当てはめましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "物理",
+      "オームの法則"
+    ],
+    "relatedChapterIds": [
+      "ch5-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-1-L01-003",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "物理",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 5,
+    "questionText": "救急車のサイレンが近づくときは高く、遠ざかるときは低く聞こえる現象を何というか。",
+    "choices": [
+      "ドップラー効果",
+      "反射",
+      "屈折",
+      "共鳴"
+    ],
+    "correctAnswer": 0,
+    "explanation": "音源と観測者が相対的に近づくときは音が高く、遠ざかるときは低く聞こえる現象をドップラー効果といいます。音源の振動数自体は変わらなくても、観測者に届く音の振動数が変化して聞こえるために起こります。",
+    "hints": [
+      "音源が動くことで、聞こえる音の高さが変わる現象です。"
+    ],
+    "tags": [
+      "自然科学",
+      "物理",
+      "波動"
+    ],
+    "relatedChapterIds": [
+      "ch5-1"
+    ],
+    "forecastId": "F-2027A-CH5-1-004",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "物理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-1-L01-004",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "物理",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 6,
+    "questionText": "外部から力が加わらない限り、エネルギーの総量は変化せず、形が変わるだけであるという法則を何というか。",
+    "choices": [
+      "エネルギー保存の法則",
+      "慣性の法則",
+      "作用・反作用の法則",
+      "万有引力の法則"
+    ],
+    "correctAnswer": 0,
+    "explanation": "エネルギー保存の法則は、エネルギーが位置エネルギーから運動エネルギーへ、あるいは熱エネルギーへと形を変えることはあっても、外部とやり取りしない限り総量は変化しないという法則です。振り子の運動やジェットコースターの動きなどはこの法則で説明できます。",
+    "hints": [
+      "振り子が最も高い位置で一瞬止まり、最も低い位置で最も速くなる現象を思い出してみましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "物理",
+      "エネルギー"
+    ],
+    "relatedChapterIds": [
+      "ch5-1"
+    ],
+    "forecastId": "F-2027A-CH5-1-005",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "物理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-1-L03-001",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "自然科学",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 3,
+    "sequenceOrder": 7,
+    "questionText": "次のA〜Dの記述のうち、誤っているものはどれか。\nA　光合成は、光エネルギーを化学エネルギー（有機物）に変換する反応である。\nB　振り子が最も高い位置に達した瞬間、位置エネルギーは最大になっている。\nC　地震のマグニチュードは、観測地点によって異なる値になる。\nD　8%の食塩水100gに含まれる食塩の量は8gである。",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cが誤りです。観測地点によって異なる値になるのは「震度」であり、「マグニチュード」は地震そのものの規模を表す指標で、1回の地震につき1つの値に決まります（5.5節参照）。Aは光合成の定義として正しく、Bはエネルギー保存の法則から正しく、Dは濃度＝食塩の量÷全体の重さの関係から 100×0.08＝8g で正しい記述です。このように複数分野の知識を1問にまとめた出題では、似た用語（震度とマグニチュード等）の混同を狙ったひっかけが含まれやすいので注意しましょう。",
+    "hints": [
+      "各選択肢を1つずつ、これまで学んだ定義と照らし合わせて検証しましょう。",
+      "「観測地点によって異なる」という記述が、震度とマグニチュードのどちらの説明かを確認しましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "分野横断"
+    ],
+    "relatedChapterIds": [
+      "ch5-1",
+      "ch5-2",
+      "ch5-3",
+      "ch5-4"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-1-L01-005",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "物理",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 8,
+    "questionText": "水中の物体が、押しのけた水の重さに等しい大きさの力を上向きに受ける現象を何というか。",
+    "choices": [
+      "浮力",
+      "圧力",
+      "摩擦力",
+      "張力"
+    ],
+    "correctAnswer": 0,
+    "explanation": "浮力は、水中の物体が押しのけた水（流体）の重さに等しい大きさの力を上向きに受ける現象で、アルキメデスの原理として知られています。船が水に浮くのはこの原理によるものです。",
+    "hints": [
+      "船が水に浮く仕組みを説明する原理です。"
+    ],
+    "tags": [
+      "自然科学",
+      "物理",
+      "浮力"
+    ],
+    "relatedChapterIds": [
+      "ch5-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-1-L02-002",
+    "type": "practice",
+    "practiceCategory": "典型問題",
+    "field": "物理",
+    "chapterId": "ch5-1",
+    "difficultyLevel": 2,
+    "sequenceOrder": 9,
+    "questionText": "100Vの電圧で2Aの電流が流れる電化製品の消費電力は何Wか。",
+    "choices": [
+      "50W",
+      "102W",
+      "200W",
+      "5000W"
+    ],
+    "correctAnswer": 2,
+    "explanation": "電力（W）＝電圧（V）×電流（A）で求められます。100×2＝200Wです。オームの法則（電流＝電圧÷抵抗）と電力の公式（電力＝電圧×電流）を混同しないようにしましょう。",
+    "hints": [
+      "電力＝電圧×電流、という公式に数値を当てはめましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "物理",
+      "電力"
+    ],
+    "relatedChapterIds": [
+      "ch5-1"
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "questionId": "Q-CH5-2-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 1,
+    "questionText": "水が氷になる状態変化を何というか。",
+    "choices": [
+      "蒸発",
+      "凝固",
+      "昇華",
+      "融解"
+    ],
+    "correctAnswer": 1,
+    "explanation": "液体から固体への変化を「凝固」といいます。固体から液体は「融解」、液体から気体は「蒸発」、固体から直接気体になるのは「昇華」です。",
+    "hints": [
+      "「固まる」という意味の熟語を考えてみましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ],
+    "forecastId": "F-2027A-CH5-2-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "化学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-2-L02-001",
+    "type": "practice",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 2,
+    "sequenceOrder": 2,
+    "questionText": "氷が融けて水になるとき、周囲から熱を奪う（吸熱する）。この性質を利用した身近な例として最も適切なものはどれか。",
+    "choices": [
+      "保冷剤が溶けながら周囲を冷やす。",
+      "やかんでお湯を沸かすと湯気が出る。",
+      "金属の棒が電気をよく通す。",
+      "鉄がさびて赤茶色になる。"
+    ],
+    "correctAnswer": 0,
+    "explanation": "固体が液体に変わる「融解」は、周囲から熱を奪う（吸熱）反応です。保冷剤は内部の物質が固体から液体へ融解する際に周囲の熱を奪うことで、冷たさを保っています。選択肢2は水が液体から気体になる「蒸発」の例であり、状態変化ではありますが、融解ではなく質問の趣旨（融解時の吸熱）とは異なる現象です。選択肢3・4はいずれも状態変化とは無関係な現象（電気伝導性、酸化）です。",
+    "hints": [
+      "「融解」は状態変化の中でも、固体→液体の変化でしたね。5.3節の定義を振り返りましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学",
+      "状態変化"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-2-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 3,
+    "questionText": "原子が電子を失ったり得たりして電気を帯びた粒子を何というか。",
+    "choices": [
+      "イオン",
+      "分子",
+      "同位体",
+      "同素体"
+    ],
+    "correctAnswer": 0,
+    "explanation": "イオンは、原子が電子を失う（陽イオンになる）か得る（陰イオンになる）ことで電気を帯びた粒子です。分子は原子が結びついてできる粒子（電気は帯びない）、同位体は陽子の数が同じで中性子の数が異なる原子、同素体は同じ元素からなる性質の異なる単体（例：炭素における黒鉛とダイヤモンド）で、いずれも異なる概念です。",
+    "hints": [
+      "「＋」や「－」の電気を帯びた粒子、という点に注目しましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学",
+      "イオン"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ],
+    "forecastId": "F-2027A-CH5-2-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "化学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-2-L01-003",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 4,
+    "questionText": "元素を原子番号順に並べ、性質の似た元素が縦の列に並ぶように配置した表を何というか。",
+    "choices": [
+      "周期表",
+      "元素記号一覧",
+      "分子式一覧",
+      "モル質量表"
+    ],
+    "correctAnswer": 0,
+    "explanation": "周期表は元素を原子番号順に並べた表で、縦の列（族）には化学的性質が似た元素が並びます。例えば、ナトリウムやカリウムが属するアルカリ金属は、いずれも水と激しく反応するという共通の性質を持ちます。",
+    "hints": [
+      "理科室によく貼ってある、元素を並べた表そのものの名前です。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学",
+      "周期表"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ],
+    "forecastId": "F-2027A-CH5-2-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "化学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-2-L02-002",
+    "type": "practice",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 2,
+    "sequenceOrder": 5,
+    "questionText": "鉄がさびる反応と、酸化鉄から鉄を取り出す製鉄の反応の組み合わせとして正しいものはどれか。",
+    "choices": [
+      "鉄がさびる＝酸化、製鉄＝還元",
+      "鉄がさびる＝還元、製鉄＝酸化",
+      "どちらも酸化である",
+      "どちらも還元である"
+    ],
+    "correctAnswer": 0,
+    "explanation": "鉄がさびるのは鉄が酸素と結びつく反応であり「酸化」にあたります。逆に、酸化鉄から酸素を取り除いて鉄を取り出す製鉄は「還元」にあたります。酸化と還元は必ず対になって起こる反応であり、片方だけが単独で生じることはありません。",
+    "hints": [
+      "「酸素と結びつく」のが酸化、「酸素を失う」のが還元、という基本を確認しましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学",
+      "酸化還元"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-2-L01-004",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 6,
+    "questionText": "金や銀のように、水溶液中で陽イオンになりにくく、さびにくい性質を持つ金属は、イオン化傾向が大きいか小さいか。",
+    "choices": [
+      "小さい",
+      "大きい",
+      "イオン化傾向とは無関係である",
+      "金属によって傾向が変わることはない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "金や銀はイオン化傾向が小さい金属であり、そのため陽イオンになりにくく、変化しにくい（さびにくい）性質を持ちます。逆に、ナトリウムなどイオン化傾向が大きい金属は反応性が高く、水と激しく反応します。",
+    "hints": [
+      "「さびにくい＝反応しにくい」という性質と、イオン化傾向の大小を結びつけましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学",
+      "イオン化傾向"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ],
+    "forecastId": "F-2027A-CH5-2-004",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "化学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-2-L01-005",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 7,
+    "questionText": "水溶液が酸性かアルカリ性かを判定する数値の指標を何というか。",
+    "choices": [
+      "pH（ペーハー、ピーエイチ）",
+      "モル濃度",
+      "沸点",
+      "比重"
+    ],
+    "correctAnswer": 0,
+    "explanation": "pHは水溶液の酸性・アルカリ性の程度を表す指標で、7が中性、7より小さいほど酸性が強く、7より大きいほどアルカリ性が強くなります。モル濃度は物質量の濃度、沸点は液体が沸騰する温度、比重は物質の密度を水と比較した値で、いずれも酸性・アルカリ性そのものを表す指標ではありません。",
+    "hints": [
+      "レモン汁は酸性、石けん水はアルカリ性、というように身近な例で数値の大小をイメージしてみましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学",
+      "酸とアルカリ"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ],
+    "forecastId": "F-2027A-CH5-2-005",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "化学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-2-L01-006",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 8,
+    "questionText": "温度が一定のとき、一定量の気体の体積は圧力に反比例するという法則を何というか。",
+    "choices": [
+      "ボイルの法則",
+      "シャルルの法則",
+      "オームの法則",
+      "フックの法則"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ボイルの法則は、温度が一定のとき気体の体積が圧力に反比例するという法則です。シャルルの法則は、圧力が一定のとき気体の体積が温度に比例するという、別の法則です。両者を混同しないようにしましょう。",
+    "hints": [
+      "「圧力と体積」の関係を表す法則です（温度は一定）。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学",
+      "気体の法則"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-2-L01-007",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "化学",
+    "chapterId": "ch5-2",
+    "difficultyLevel": 1,
+    "sequenceOrder": 9,
+    "questionText": "炭素を中心に構成される化合物を何というか。",
+    "choices": [
+      "有機化合物",
+      "無機化合物",
+      "金属化合物",
+      "イオン化合物"
+    ],
+    "correctAnswer": 0,
+    "explanation": "有機化合物は炭素を中心に構成される化合物で、生物の体を構成する物質の多くがこれに該当します。炭素を含まない（または一部の例外を除く）化合物は無機化合物と呼ばれます。",
+    "hints": [
+      "「有機」という言葉は、もともと生物に由来する物質という意味合いを持ちます。"
+    ],
+    "tags": [
+      "自然科学",
+      "化学",
+      "有機化合物"
+    ],
+    "relatedChapterIds": [
+      "ch5-2"
+    ]
+  }
+]

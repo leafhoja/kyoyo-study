@@ -1,0 +1,74 @@
+[
+  {
+    "questionId": "Q-CH1-3-L03-001",
+    "type": "forecast",
+    "practiceCategory": "標準問題",
+    "field": "文章理解（英文）",
+    "chapterId": "ch1-3",
+    "difficultyLevel": 3,
+    "sequenceOrder": 1,
+    "questionText": "Read the following passage and choose the option that best matches its content.\n\n\"Many species of birds migrate long distances every year, often traveling thousands of kilometers between their breeding and wintering grounds. Scientists have found that some birds rely on the Earth's magnetic field to navigate, while others use the position of the sun or stars. What is remarkable is that young birds, migrating for the first time without any adult guidance, are often able to find their way to a wintering ground they have never visited before. This suggests that at least part of migratory behavior is inherited rather than learned through experience.\"",
+    "choices": [
+      "渡り鳥は、毎年同じ経路を親からの学習によって覚えている。",
+      "経験のない若い鳥が初めての渡りで見知らぬ越冬地にたどり着けることから、渡りの行動の一部は生まれつき備わっていると考えられる。",
+      "すべての鳥が、地球の磁場だけを頼りに渡りを行っている。",
+      "渡り鳥が移動する距離は、近年短くなってきている。"
+    ],
+    "correctAnswer": 1,
+    "explanation": "本文最後の一文「This suggests that at least part of migratory behavior is inherited rather than learned through experience（このことは、渡りの行動の少なくとも一部が、経験を通じて学習されるのではなく、生まれつき備わっていることを示唆している）」が要点であり、選択肢2と一致します。選択肢1は「親からの学習」としており、本文はむしろ学習ではなく生得的（inherited）であることを示唆しているため逆の内容です。選択肢3は「地球の磁場だけ」としていますが、本文は太陽や星の位置を使う鳥もいる（others use the position of the sun or stars）と述べており、「だけ」という限定は誤りです。選択肢4は本文に記載のない内容です。英文の文章理解でも、和文と同じく「設問を先に読む」「本文の一部だけに合致する選択肢を消す」という基本の型がそのまま使えます。",
+    "hints": [
+      "英文でも、まず「何を聞かれているか」を確認してから本文を読みましょう。",
+      "本文の最後の一文（This suggests that...）に、筆者の結論が集約されていることが多いです。",
+      "「だけ」「必ず」のように限定・断定を加えている選択肢は、本文の記述より強すぎないか確認しましょう。"
+    ],
+    "tags": [
+      "文章理解",
+      "英文",
+      "内容合致"
+    ],
+    "relatedChapterIds": [
+      "ch1-3"
+    ],
+    "forecastId": "F-2027A-CH1-3-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "文章理解（英文）分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "中程度",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH1-3-L04-001",
+    "type": "practice",
+    "practiceCategory": "実戦問題",
+    "field": "文章理解（英文）",
+    "chapterId": "ch1-3",
+    "difficultyLevel": 4,
+    "sequenceOrder": 2,
+    "questionText": "Read the following passage and choose the option that best matches its content.\n\n\"Some companies have begun to adopt a four-day work week, hoping to improve employee well-being without reducing overall productivity. Early trials in several countries suggest that, when hours are compressed into four days, employees often report lower stress and higher job satisfaction, while total output remains largely unchanged. However, researchers caution that the results vary considerably depending on the type of industry, and that a shorter work week is not equally feasible for every kind of job.\"",
+    "choices": [
+      "週4日勤務の導入によって、あらゆる業種で同様の効果が確認されている。",
+      "初期の試験導入では、労働時間を4日に圧縮しても総生産量はほぼ変わらなかったと報告されている。",
+      "週4日勤務は、従業員の満足度を下げる傾向があることが分かっている。",
+      "研究者たちは、週4日勤務がすべての職種に適していると結論づけている。"
+    ],
+    "correctAnswer": 1,
+    "explanation": "本文の \"total output remains largely unchanged\"（総生産量はほぼ変わらない）が選択肢2と一致します。選択肢1・4は「業種によって結果は大きく異なる（vary considerably depending on the type of industry）」「すべての職種に等しく実現可能というわけではない」という本文の留保と矛盾します。選択肢3は本文と逆（satisfaction is higher, not lower）です。",
+    "hints": [
+      "最後の1文にある \"however\" 以降の留保（業種による違い）を見落とさないようにしましょう。"
+    ],
+    "tags": [
+      "文章理解",
+      "英文",
+      "内容合致"
+    ],
+    "relatedChapterIds": [
+      "ch1-3"
+    ]
+  }
+]

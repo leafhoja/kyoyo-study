@@ -1,0 +1,250 @@
+[
+  {
+    "questionId": "Q-CH4-1-L00-001",
+    "type": "forecast",
+    "practiceCategory": "問題形式を理解するための導入問題",
+    "field": "資料解釈",
+    "chapterId": "ch4-1",
+    "difficultyLevel": 0,
+    "sequenceOrder": 1,
+    "questionText": "資料解釈の問題を解き始める前に、まず確認すべきものはどれか。",
+    "choices": [
+      "選択肢の数",
+      "資料の単位・注記（対象期間や調査対象など）",
+      "問題番号",
+      "解答時間の残り"
+    ],
+    "correctAnswer": 1,
+    "explanation": "資料解釈では、単位（人・%・億円など）や注記（いつの数字か、何を対象にした調査か）を見落とすと、正しく見える計算をしても誤答になります。計算を始める前に必ず確認しましょう。",
+    "hints": [
+      "ch4.2「概算で選択肢を絞り込む」の最初のステップを思い出しましょう。"
+    ],
+    "tags": [
+      "資料解釈",
+      "基本姿勢"
+    ],
+    "relatedChapterIds": [
+      "ch4-1"
+    ],
+    "forecastId": "F-2027A-CH4-1-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "資料解釈分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH4-1-L02-001",
+    "type": "forecast",
+    "practiceCategory": "典型問題",
+    "field": "資料解釈",
+    "chapterId": "ch4-1",
+    "difficultyLevel": 2,
+    "sequenceOrder": 2,
+    "questionText": "ある町の世帯構成比は、一人世帯30%、二人世帯35%、三人以上世帯35%であった。この町の総世帯数が2万世帯であるとき、三人以上世帯の数は何世帯か。",
+    "choices": [
+      "6,000世帯",
+      "7,000世帯",
+      "7,500世帯",
+      "8,000世帯"
+    ],
+    "correctAnswer": 1,
+    "explanation": "三人以上世帯の実数＝総世帯数×構成比＝20,000×0.35＝7,000世帯です。構成比（%）だけが与えられている資料から実数を求める場合は、必ず「総数」に構成比（割合）を掛けます。総数が与えられていない資料からは、実数を確定できない点にも注意しましょう。",
+    "hints": [
+      "実数＝総数×構成比、という関係を使いましょう。"
+    ],
+    "tags": [
+      "資料解釈",
+      "構成比"
+    ],
+    "relatedChapterIds": [
+      "ch4-1"
+    ],
+    "forecastId": "F-2027A-CH4-1-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "資料解釈分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "中程度",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH4-1-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単純な数値読み取り",
+    "field": "資料解釈",
+    "chapterId": "ch4-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 3,
+    "questionText": "ある地域の産業別就業者数は、農業2,000人、工業5,000人、サービス業13,000人であった。この地域の就業者総数に占めるサービス業の割合は何%か。",
+    "choices": [
+      "55%",
+      "60%",
+      "65%",
+      "70%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "就業者総数は 2,000＋5,000＋13,000＝20,000人 です。サービス業の割合＝13,000÷20,000＝0.65＝65% です。3つの実数から総数を求め、そのうえで割合を計算する、という2段階の手順に慣れましょう。",
+    "hints": [
+      "まず3つの産業の就業者数を合計して、就業者総数を求めましょう。"
+    ],
+    "tags": [
+      "資料解釈",
+      "構成比"
+    ],
+    "relatedChapterIds": [
+      "ch4-1"
+    ],
+    "forecastId": "F-2027A-CH4-1-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "資料解釈分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH4-1-L02-002",
+    "type": "practice",
+    "practiceCategory": "典型問題",
+    "field": "資料解釈",
+    "chapterId": "ch4-1",
+    "difficultyLevel": 2,
+    "sequenceOrder": 4,
+    "questionText": "A国の人口は2,000万人、GDP（国内総生産）は60兆円である。この国の1人当たりGDPはいくらか。",
+    "choices": [
+      "30万円",
+      "300万円",
+      "3,000万円",
+      "3億円"
+    ],
+    "correctAnswer": 1,
+    "explanation": "1人当たりGDP＝GDP÷人口＝60兆円÷2,000万人 で計算します。単位をそろえるため、60兆円＝60,000,000百万円のように桁を整理するか、60兆÷2,000万＝(6×10¹³)÷(2×10⁷)＝3×10⁶＝300万円、と指数で計算すると間違えにくくなります。「1人当たり」の指標は、実数（GDP合計額）を人口で割ることで求める、という基本操作を確認する問題です。",
+    "hints": [
+      "「1人当たり」は、合計の値を対象となる人数で割ることで求められます。",
+      "桁数が大きい計算では、10のべき乗（10¹³等）を使って整理すると計算ミスを防げます。"
+    ],
+    "tags": [
+      "資料解釈",
+      "1人当たり",
+      "GDP"
+    ],
+    "relatedChapterIds": [
+      "ch4-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH4-1-L03-001",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "資料解釈",
+    "chapterId": "ch4-1",
+    "difficultyLevel": 3,
+    "sequenceOrder": 5,
+    "questionText": "ある県の人口は100万人である。このうち65歳以上の高齢者が占める割合は30%であり、高齢者のうち要介護認定を受けている人の割合は20%であった。この県で要介護認定を受けている高齢者は何人か。",
+    "choices": [
+      "20,000人",
+      "60,000人",
+      "200,000人",
+      "300,000人"
+    ],
+    "correctAnswer": 1,
+    "explanation": "まず65歳以上の高齢者数＝100万人×0.3＝30万人です。そのうち要介護認定を受けている割合が20%なので、要介護認定者数＝30万人×0.2＝6万人（60,000人）です。「人口全体の20%」と誤解して 100万×0.2＝20万人 と計算してしまうのが典型的な誤りです。「割合の割合」（ある集団の中でのさらに一部の割合）を問う問題では、必ず正しい基準（分母）を一段ずつ確認しながら計算しましょう。",
+    "hints": [
+      "「高齢者のうち20%」なので、20%を掛ける対象は「人口全体」ではなく「高齢者数」です。",
+      "①人口×高齢者の割合→②その結果×要介護の割合、という2段階で計算しましょう。"
+    ],
+    "tags": [
+      "資料解釈",
+      "割合の割合"
+    ],
+    "relatedChapterIds": [
+      "ch4-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH4-1-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単純な数値読み取り",
+    "field": "資料解釈",
+    "chapterId": "ch4-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 6,
+    "questionText": "ある工場で1日に1,200個の製品を生産しており、そのうち不良品の割合は3%であった。1日の不良品の個数は何個か。",
+    "choices": [
+      "12個",
+      "24個",
+      "36個",
+      "48個"
+    ],
+    "correctAnswer": 2,
+    "explanation": "不良品の個数＝生産数×不良品の割合＝1,200×0.03＝36個です。「実数＝総数×割合」という最も基本的な関係を確認する問題です。",
+    "hints": [
+      "実数＝総数×割合、という関係を使いましょう。"
+    ],
+    "tags": [
+      "資料解釈",
+      "構成比"
+    ],
+    "relatedChapterIds": [
+      "ch4-1"
+    ],
+    "forecastId": "F-2027A-CH4-1-004",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "資料解釈分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH4-1-L03-002",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "資料解釈",
+    "chapterId": "ch4-1",
+    "difficultyLevel": 3,
+    "sequenceOrder": 7,
+    "questionText": "A支店（従業員20人、平均月収30万円）とB支店（従業員80人）を合わせた全従業員100人の平均月収は32万円であった。B支店の平均月収は何万円か。",
+    "choices": [
+      "30万円",
+      "31万円",
+      "32.5万円",
+      "35万円"
+    ],
+    "correctAnswer": 2,
+    "explanation": "全体の月収の合計＝100人×32万円＝3,200万円です。このうちA支店の合計は20人×30万円＝600万円なので、B支店の合計は 3,200－600＝2,600万円 です。B支店の平均月収＝2,600万円÷80人＝32.5万円です。「支店ごとの平均をそのまま足して2で割る」（(30＋32)÷2など）という計算は、人数が異なる場合には誤りになります。必ず「合計」に戻してから計算しましょう。",
+    "hints": [
+      "全体平均×全体人数＝各支店の合計の和、という関係を使いましょう。",
+      "先に全体の合計とA支店の合計を求め、引き算でB支店の合計を出しましょう。"
+    ],
+    "tags": [
+      "資料解釈",
+      "加重平均"
+    ],
+    "relatedChapterIds": [
+      "ch4-1"
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "questionId": "Q-CH6-1-L00-001",
+    "type": "forecast",
+    "practiceCategory": "用語を確認する問題",
+    "field": "日本史",
+    "chapterId": "ch6-1",
+    "difficultyLevel": 0,
+    "sequenceOrder": 1,
+    "questionText": "1868年前後、江戸幕府による統治から天皇を中心とする新政府による統治へと移り変わった一連の変革を何と呼ぶか。",
+    "choices": [
+      "明治維新",
+      "大政奉還",
+      "廃藩置県",
+      "王政復古"
+    ],
+    "correctAnswer": 0,
+    "explanation": "「明治維新」は、大政奉還・王政復古・廃藩置県などの個々のできごとを含む、一連の変革全体を指す呼び方です。他の3つの選択肢はいずれも明治維新の中で起きた個別のできごとの名前です。",
+    "hints": [
+      "選択肢の中には、明治維新という大きな変革の「一部分」の名前も混じっています。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史"
+    ],
+    "relatedChapterIds": [
+      "ch6-1"
+    ],
+    "forecastId": "F-2027A-CH6-1-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "日本史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH6-1-L02-001",
+    "type": "practice",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "日本史",
+    "chapterId": "ch6-1",
+    "difficultyLevel": 2,
+    "sequenceOrder": 2,
+    "questionText": "次のできごとを、年代の古い順に並べ替えたとき、正しい順序はどれか。\nA　日清戦争\nB　明治維新\nC　日露戦争",
+    "choices": [
+      "A→B→C",
+      "B→A→C",
+      "B→C→A",
+      "C→B→A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "明治維新（1868年前後）→ 日清戦争（1894〜1895年）→ 日露戦争（1904〜1905年）の順です。明治維新によって近代化を進めた日本が、その後に日清戦争、続いて日露戦争を経験したという流れを押さえておきましょう。選択肢1（A→B→C）は明治維新を最初に置いていない誤り、選択肢3・4は日清戦争と日露戦争の前後関係を誤っています。",
+    "hints": [
+      "明治維新はいつ頃のできごとだったか、まず思い出しましょう。",
+      "「日清」「日露」という名前から、それぞれどちらの国と戦った戦争か考えると、時系列のヒントになります。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "年代整序"
+    ],
+    "relatedChapterIds": [
+      "ch6-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH6-1-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "日本史",
+    "chapterId": "ch6-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 3,
+    "questionText": "645年、中大兄皇子・中臣鎌足らが蘇我氏を打倒し、中央集権的な国づくりを目指した一連の政治改革を何というか。",
+    "choices": [
+      "大化の改新",
+      "鎌倉幕府の成立",
+      "明治維新",
+      "建武の新政"
+    ],
+    "correctAnswer": 0,
+    "explanation": "大化の改新は645年、中大兄皇子・中臣鎌足らが蘇我氏を打倒し、公地公民制など中国（唐）にならった中央集権的な国づくりを進めた政治改革です。日本古代史における大きな転換点として押さえておきましょう。",
+    "hints": [
+      "「645年」という年号と結びつけて覚えておきましょう。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "日本史"
+    ],
+    "relatedChapterIds": [
+      "ch6-1"
+    ],
+    "forecastId": "F-2027A-CH6-1-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "日本史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH6-1-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "日本史",
+    "chapterId": "ch6-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 4,
+    "questionText": "源頼朝が守護・地頭を全国に設置し、日本初の本格的な武家政権を成立させたのはどれか。",
+    "choices": [
+      "鎌倉幕府",
+      "室町幕府",
+      "江戸幕府",
+      "大和朝廷"
+    ],
+    "correctAnswer": 0,
+    "explanation": "鎌倉幕府は、源頼朝が守護・地頭を設置した1185年、あるいは征夷大将軍に任じられた1192年を成立の画期とする、日本初の本格的な武家政権です。貴族中心の政治から武士中心の政治への転換点です。",
+    "hints": [
+      "「守護・地頭」というキーワードから連想しましょう。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "日本史"
+    ],
+    "relatedChapterIds": [
+      "ch6-1"
+    ],
+    "forecastId": "F-2027A-CH6-1-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "日本史分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH6-1-L01-003",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "日本史",
+    "chapterId": "ch6-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 5,
+    "questionText": "江戸幕府が17世紀前半にとった、対外交流を大幅に制限する政策を何というか。",
+    "choices": [
+      "鎖国",
+      "廃藩置県",
+      "参勤交代",
+      "地租改正"
+    ],
+    "correctAnswer": 0,
+    "explanation": "鎖国は、江戸幕府が1639年のポルトガル船来航禁止などを経て確立した、対外交流を大幅に制限する政策です。この体制は1853年のペリー来航まで200年以上続きました。参勤交代は大名を統制するための別の制度、廃藩置県・地租改正はいずれも明治維新後の改革であり、時代が異なります。",
+    "hints": [
+      "江戸時代に長く続いた、対外的な交流の制限そのものを指す言葉です。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "日本史"
+    ],
+    "relatedChapterIds": [
+      "ch6-1"
+    ]
+  },
+  {
+    "questionId": "Q-CH6-1-L01-004",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "日本史",
+    "chapterId": "ch6-1",
+    "difficultyLevel": 1,
+    "sequenceOrder": 6,
+    "questionText": "1945年の終戦後、GHQの占領下で行われた、農地改革や財閥解体などの一連の改革を何と呼ぶか。",
+    "choices": [
+      "戦後民主化改革",
+      "明治維新",
+      "大化の改新",
+      "殖産興業"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1945年の終戦後、GHQ（連合国軍総司令部）の占領下で、農地改革・財閥解体・日本国憲法制定（1946年公布）などの戦後民主化改革が進められました。殖産興業は明治期に行われた産業振興政策で、時代が異なります。",
+    "hints": [
+      "「GHQ」という組織の占領下で行われた改革であることを思い出しましょう。"
+    ],
+    "tags": [
+      "人文科学",
+      "歴史",
+      "日本史"
+    ],
+    "relatedChapterIds": [
+      "ch6-1"
+    ]
+  }
+]

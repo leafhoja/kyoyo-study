@@ -1,0 +1,113 @@
+[
+  {
+    "questionId": "Q-CH3-4-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "数的推理",
+    "chapterId": "ch3-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 1,
+    "questionText": "縦4cm、横6cmの長方形の面積は何cm²か。",
+    "choices": [
+      "10cm²",
+      "20cm²",
+      "24cm²",
+      "48cm²"
+    ],
+    "correctAnswer": 2,
+    "explanation": "長方形の面積＝縦×横 なので、4×6＝24(cm²) です。単位が「cm²」（面積）になることも意識しておきましょう。",
+    "hints": [
+      "長方形の面積の公式を思い出しましょう。"
+    ],
+    "tags": [
+      "数的推理",
+      "図形"
+    ],
+    "relatedChapterIds": [
+      "ch3-4"
+    ],
+    "forecastId": "F-2027A-CH3-4-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "数的推理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH3-4-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "数的推理",
+    "chapterId": "ch3-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 2,
+    "questionText": "半径5cmの円の面積は何cm²か。ただし、円周率は3.14とする。",
+    "choices": [
+      "15.7cm²",
+      "31.4cm²",
+      "62.8cm²",
+      "78.5cm²"
+    ],
+    "correctAnswer": 3,
+    "explanation": "円の面積＝半径×半径×円周率＝5×5×3.14＝78.5(cm²) です。「直径×円周率」（円周の公式）と混同しないよう注意しましょう。",
+    "hints": [
+      "円の面積の公式「半径×半径×円周率」に数値を当てはめましょう。"
+    ],
+    "tags": [
+      "数的推理",
+      "図形",
+      "円の面積"
+    ],
+    "relatedChapterIds": [
+      "ch3-4"
+    ],
+    "forecastId": "F-2027A-CH3-4-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "数的推理分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH3-4-L03-001",
+    "type": "practice",
+    "practiceCategory": "標準問題",
+    "field": "数的推理",
+    "chapterId": "ch3-4",
+    "difficultyLevel": 3,
+    "sequenceOrder": 3,
+    "questionText": "直角三角形の、直角をはさむ2辺の長さが6cmと8cmであるとき、残りの1辺（斜辺）の長さは何cmか。",
+    "choices": [
+      "10cm",
+      "12cm",
+      "14cm",
+      "√48cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "三平方の定理（ピタゴラスの定理）より、斜辺の長さの2乗＝6²＋8²＝36＋64＝100です。したがって斜辺の長さは√100＝10cmです。「3：4：5」の比を2倍した「6：8：10」は、三平方の定理でよく使われる代表的な整数比の一つとして覚えておくと計算が速くなります。",
+    "hints": [
+      "三平方の定理「(直角をはさむ辺)²＋(直角をはさむ辺)²＝(斜辺)²」を使いましょう。",
+      "「3：4：5」の直角三角形の比を2倍した形になっていないか確認しましょう。"
+    ],
+    "tags": [
+      "数的推理",
+      "図形",
+      "三平方の定理"
+    ],
+    "relatedChapterIds": [
+      "ch3-4"
+    ]
+  }
+]

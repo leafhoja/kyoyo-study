@@ -1,0 +1,142 @@
+[
+  {
+    "questionId": "Q-CH2-3-L02-001",
+    "type": "forecast",
+    "practiceCategory": "典型問題",
+    "field": "判断推理",
+    "chapterId": "ch2-3",
+    "difficultyLevel": 2,
+    "sequenceOrder": 1,
+    "questionText": "A・B・C・D・Eの5人が徒競走をして、同着なく1位から5位までの順位がついた。次の条件から、Bの順位を答えなさい。\n条件1：DはCより先にゴールした。\n条件2：CはAより先にゴールした。\n条件3：AはBより先にゴールした。\n条件4：EはDより後にゴールした。\n条件5：BはEより先にゴールした。",
+    "choices": [
+      "2位",
+      "3位",
+      "4位",
+      "5位"
+    ],
+    "correctAnswer": 2,
+    "explanation": "条件1〜3をつなげると「D→C→A→B」の順（矢印は「先にゴールした」の意味）になります。条件4「EはDより後」・条件5「BはEより先」を組み合わせると「B→E」かつ「D→…→E」なので、Eは最後に来ることが分かります。すべてをつなげると D→C→A→B→E という1本の順序になり、1位D・2位C・3位A・4位B・5位Eと完全に決まります。したがってBは4位です。順序関係の問題では、まず「先に／後に」の関係を矢印でつなぎ、1本の鎖にできるかを確認するのが基本の型です。",
+    "hints": [
+      "「XはYより先にゴールした」という条件を、X→Yという矢印でつなげてみましょう。",
+      "条件1・2・3だけで、D→C→A→Bという4人分の順序がすでに決まります。残る条件4・5でEをどこに入れるか考えましょう。"
+    ],
+    "tags": [
+      "判断推理",
+      "順序関係"
+    ],
+    "relatedChapterIds": [
+      "ch2-3"
+    ],
+    "forecastId": "F-2027A-CH2-3-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "判断推理分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "中程度",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH2-3-L02-002",
+    "type": "forecast",
+    "practiceCategory": "典型問題",
+    "field": "判断推理",
+    "chapterId": "ch2-3",
+    "difficultyLevel": 2,
+    "sequenceOrder": 2,
+    "questionText": "A・B・C・D・E・Fの6人が、円形のテーブルに等間隔で座っている。次の条件から、Eの正面（真向かい）の席に座っているのは誰か。\n条件1：Bは、Aから時計回りに隣の席に座っている。\n条件2：Dは、Aの正面（真向かい）の席に座っている。\n条件3：Cは、Bから時計回りに隣の席に座っている。\n条件4：Fは、Dから時計回りに隣の席に座っている。",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Aを1番の席とし、時計回りに1〜6番の席番号をつけます。条件1よりBは2番。条件2より、6人がけの円卓では正面は3つ隣（1＋3＝4番）になるので、Dは4番。条件3よりCはBの時計回りの隣なので3番。条件4よりFはDの時計回りの隣なので5番。残った6番がEです。Eの正面は6＋3＝9、6人がけなので9－6＝3番、つまりC（3番）がEの正面です。円卓の位置関係問題では、まず座席に番号を振り、「正面＝人数の半分だけ隣」という関係を使うのがコツです。",
+    "hints": [
+      "座席に1〜6の番号をつけ、条件を1つずつ埋めていきましょう。",
+      "6人がけの円卓では、「正面」は3つ隣（6÷2）の席になります。"
+    ],
+    "tags": [
+      "判断推理",
+      "位置関係",
+      "円卓"
+    ],
+    "relatedChapterIds": [
+      "ch2-3"
+    ],
+    "forecastId": "F-2027A-CH2-3-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "判断推理分野の典型的な応用パターンであり、過去の出題傾向の分析で扱われることが多い形式のテーマであるため、出題可能性を中程度と評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "中程度",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH2-3-L02-003",
+    "type": "practice",
+    "practiceCategory": "典型問題",
+    "field": "判断推理",
+    "chapterId": "ch2-3",
+    "difficultyLevel": 2,
+    "sequenceOrder": 3,
+    "questionText": "A・B・C・D・Eの5人の身長を比べたところ、全員異なっていた。次の条件から、2番目に高いのは誰か。\n条件1：DはAより高い。\n条件2：AはBより高い。\n条件3：BはCより高い。\n条件4：EはDより高い。",
+    "choices": [
+      "D",
+      "E",
+      "A",
+      "B"
+    ],
+    "correctAnswer": 0,
+    "explanation": "条件1〜3をつなげると D＞A＞B＞C という順序ができ、条件4を加えると E＞D＞A＞B＞C という1本の順序に完全に決まります。したがって、最も高いのはE、2番目に高いのはDです。",
+    "hints": [
+      "すべての条件をつなげて、1本の大小関係の鎖を作れないか考えましょう。"
+    ],
+    "tags": [
+      "判断推理",
+      "順序関係"
+    ],
+    "relatedChapterIds": [
+      "ch2-3"
+    ]
+  },
+  {
+    "questionId": "Q-CH2-3-L02-004",
+    "type": "practice",
+    "practiceCategory": "典型問題",
+    "field": "判断推理",
+    "chapterId": "ch2-3",
+    "difficultyLevel": 2,
+    "sequenceOrder": 4,
+    "questionText": "A・B・C・D・Eの5人が横一列に並んでいる（左から1〜5番目とする）。次の条件から、Bが並んでいる位置を答えなさい。\n条件1：Cは一番左（1番目）にいる。\n条件2：Aは、Cのすぐ右（2番目）にいる。\n条件3：Eは一番右（5番目）にいる。\n条件4：Dは、Bより左にいる。",
+    "choices": [
+      "2番目",
+      "3番目",
+      "4番目",
+      "5番目"
+    ],
+    "correctAnswer": 2,
+    "explanation": "条件1〜3より、C=1番目、A=2番目、E=5番目に決まります。残る3番目・4番目をB・Dで分けることになりますが、条件4「DはBより左」より、D=3番目、B=4番目に決まります。",
+    "hints": [
+      "まず条件1〜3で3人分の位置を確定させましょう。",
+      "残った2つの位置を、条件4の左右関係で振り分けましょう。"
+    ],
+    "tags": [
+      "判断推理",
+      "位置関係"
+    ],
+    "relatedChapterIds": [
+      "ch2-3"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "questionId": "Q-CH7-4-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "社会",
+    "chapterId": "ch7-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 1,
+    "questionText": "日本の社会保障制度のうち、加齢や病気・失業などのリスクに備え、加入者があらかじめ保険料を負担する仕組みを何というか。",
+    "choices": [
+      "社会保険",
+      "公的扶助",
+      "社会福祉",
+      "公衆衛生"
+    ],
+    "correctAnswer": 0,
+    "explanation": "社会保険（年金・医療保険・雇用保険・介護保険等）は、加入者があらかじめ保険料を負担し、リスクが現実になったときに給付を受ける仕組みです。公的扶助（生活保護等）は困窮者に対する事後的な支援、社会福祉は高齢者・障害者等への支援サービス、公衆衛生は感染症予防など地域全体の健康を守る取り組みで、社会保障制度はこの4つの柱で構成されると整理されます。",
+    "hints": [
+      "「保険料をあらかじめ払う」という特徴に注目しましょう。"
+    ],
+    "tags": [
+      "社会科学",
+      "社会保障"
+    ],
+    "relatedChapterIds": [
+      "ch7-4"
+    ],
+    "forecastId": "F-2027A-CH7-4-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "社会分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH7-4-L01-002",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "社会",
+    "chapterId": "ch7-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 2,
+    "questionText": "労働組合をつくる権利、使用者と交渉する権利、ストライキなどを行う権利をまとめて何というか。",
+    "choices": [
+      "労働三権",
+      "基本的人権",
+      "参政権",
+      "自由権"
+    ],
+    "correctAnswer": 0,
+    "explanation": "労働三権は、団結権（労働組合をつくる権利）・団体交渉権（使用者と交渉する権利）・団体行動権（ストライキなどを行う権利）の3つを指します。日本国憲法で保障されている社会権の一つです。",
+    "hints": [
+      "「団結」「団体交渉」「団体行動」という3つのキーワードを思い出しましょう。"
+    ],
+    "tags": [
+      "社会科学",
+      "社会保障",
+      "労働三権"
+    ],
+    "relatedChapterIds": [
+      "ch7-4"
+    ]
+  }
+]

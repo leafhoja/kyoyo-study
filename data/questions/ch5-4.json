@@ -1,0 +1,322 @@
+[
+  {
+    "questionId": "Q-CH5-4-L01-001",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 1,
+    "questionText": "地震の規模（放出されたエネルギーの大きさ）そのものを表す指標はどれか。",
+    "choices": [
+      "震度",
+      "マグニチュード",
+      "気圧",
+      "湿度"
+    ],
+    "correctAnswer": 1,
+    "explanation": "マグニチュードは地震そのものの規模（エネルギー）を表す指標で、地震1回につき1つの値です。震度は、ある地点での揺れの強さを表す指標で、同じ地震でも観測地点によって異なります。",
+    "hints": [
+      "「地震そのものの大きさ」と「ある場所での揺れ方」は別の指標で表されます。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ],
+    "forecastId": "F-2027A-CH5-4-001",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-4-L01-002",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 2,
+    "questionText": "地球の内部構造を表面側から順に並べたとき、正しいものはどれか。",
+    "choices": [
+      "地殻→マントル→核",
+      "マントル→地殻→核",
+      "核→マントル→地殻",
+      "地殻→核→マントル"
+    ],
+    "correctAnswer": 0,
+    "explanation": "地球の内部は、表面側から「地殻」「マントル」「核（外核・内核）」の順に層構造になっています。プレートは地殻と最上部マントルを含む硬い層（岩石圏）を指します。",
+    "hints": [
+      "最も表面に近い薄い層が「地殻」でしたね。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学",
+      "地球内部構造"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ],
+    "forecastId": "F-2027A-CH5-4-002",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-4-L01-003",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 3,
+    "questionText": "水星・金星・地球・火星のように、岩石質で小型・高密度な惑星をまとめて何というか。",
+    "choices": [
+      "地球型惑星",
+      "木星型惑星",
+      "準惑星",
+      "小惑星"
+    ],
+    "correctAnswer": 0,
+    "explanation": "水星・金星・地球・火星は地球型惑星と呼ばれ、岩石質で小型・高密度という特徴を持ちます。一方、木星・土星・天王星・海王星は木星型惑星と呼ばれ、ガス主体で大型・低密度という対照的な特徴を持ちます。",
+    "hints": [
+      "「地球」に性質が似ているグループなので、その名前がそのまま分類名になっています。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学",
+      "太陽系"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ],
+    "forecastId": "F-2027A-CH5-4-003",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-4-L02-001",
+    "type": "practice",
+    "practiceCategory": "典型問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 2,
+    "sequenceOrder": 4,
+    "questionText": "ある前線が通過した後、気温が下がり、短時間に強い雨が降ることが多かった。この前線として最も適切なものはどれか。",
+    "choices": [
+      "寒冷前線",
+      "温暖前線",
+      "停滞前線",
+      "閉塞前線"
+    ],
+    "correctAnswer": 0,
+    "explanation": "寒冷前線は、冷たい空気が暖かい空気の下に勢いよく潜り込むことで生じる前線で、通過後は気温が下がり、通過時には積乱雲による短時間の強い雨を伴うことが多いという特徴があります。温暖前線は、暖かい空気が冷たい空気の上にゆるやかに乗り上げる前線で、通過後は気温が上がり、広い範囲で穏やかな雨が長く続く傾向があります。",
+    "hints": [
+      "「気温が下がる」「短時間の強い雨」という2つの特徴から前線の種類を絞り込みましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学",
+      "前線"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-4-L01-004",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 5,
+    "questionText": "地層は、特別な変動がない限り、上下の層のうちどちらがより古い時代にできたものか。",
+    "choices": [
+      "下の層の方が古い",
+      "上の層の方が古い",
+      "上下で古さに違いはない",
+      "地層からは年代を判断できない"
+    ],
+    "correctAnswer": 0,
+    "explanation": "地層は土砂が積み重なってできるため、特別な地殻変動（逆転等）がない限り、下にある層ほど古い時代に堆積したものです。この原則は「地層累重の法則」と呼ばれ、地層の年代を推定する基本的な考え方です。",
+    "hints": [
+      "地層は積み重なってできる、という成り立ちから考えましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学",
+      "地層"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ],
+    "forecastId": "F-2027A-CH5-4-004",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-4-L02-002",
+    "type": "practice",
+    "practiceCategory": "複数知識を組み合わせる問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 2,
+    "sequenceOrder": 6,
+    "questionText": "地球の表面をおおう、プレートと呼ばれる十数枚の岩盤が互いに動くことで、地震や火山活動が起きるとする考え方を何というか。",
+    "choices": [
+      "プレートテクトニクス",
+      "大陸移動説",
+      "地動説",
+      "地球温暖化説"
+    ],
+    "correctAnswer": 0,
+    "explanation": "プレートテクトニクスは、地球表面がいくつものプレート（岩盤）に分かれ、それらが年間数cm程度の速さで動くことで、プレート境界に地震や火山活動が集中するという考え方です。大陸移動説はこの考え方の先駆けとなった学説（ウェゲナーが提唱）で、プレートテクトニクスはこれをより精密に説明する理論として発展しました。地動説は天体（地球と太陽の関係）についての学説であり、無関係です。",
+    "hints": [
+      "日本列島に地震が多いのは、複数のプレートが交わる場所にあるためだと言われます。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学",
+      "プレートテクトニクス"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-4-L01-005",
+    "type": "forecast",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 7,
+    "questionText": "熱帯低気圧のうち、北西太平洋で発生し最大風速が一定基準以上のものを何というか。",
+    "choices": [
+      "台風",
+      "ハリケーン",
+      "サイクロン",
+      "トルネード"
+    ],
+    "correctAnswer": 0,
+    "explanation": "台風は北西太平洋で発生する熱帯低気圧のうち、最大風速が一定基準以上のものを指します。大西洋・北東太平洋で発生するものはハリケーン、インド洋・南太平洋で発生するものはサイクロンと呼ばれ、発生する海域によって呼び名が異なります。トルネードは竜巻を指す別の現象です。",
+    "hints": [
+      "日本に接近する熱帯低気圧の呼び方を思い出しましょう。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学",
+      "台風"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ],
+    "forecastId": "F-2027A-CH5-4-005",
+    "targetExamYear": "2027年度（春実施を想定）",
+    "forecastBasis": [
+      "pastExamTrend"
+    ],
+    "basisDescription": "地学分野の基礎的・定義的な知識であり、出題形式や年度が変わっても教科書的な定番論点として繰り返し問われやすいテーマと考えられるため、出題可能性を高いと評価した。",
+    "relatedPastExamIds": [],
+    "likelihoodLabel": "高い",
+    "createdDate": "2026-07-31",
+    "lastUpdatedDate": "2026-07-31",
+    "author": "サイト制作者",
+    "reviewStatus": "未レビュー"
+  },
+  {
+    "questionId": "Q-CH5-4-L01-006",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 8,
+    "questionText": "マグマが冷えて固まってできる岩石を何というか。",
+    "choices": [
+      "火成岩",
+      "堆積岩",
+      "変成岩",
+      "生物岩"
+    ],
+    "correctAnswer": 0,
+    "explanation": "火成岩はマグマが冷えて固まってできる岩石で、地表付近で急速に冷えた火山岩と、地下深くでゆっくり冷えた深成岩に分かれます。堆積岩は土砂等が積み重なってできる岩石、変成岩は既存の岩石が熱や圧力で性質を変えてできる岩石で、それぞれ成因が異なります。",
+    "hints": [
+      "「マグマ」という言葉から連想される岩石です。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学",
+      "岩石"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ]
+  },
+  {
+    "questionId": "Q-CH5-4-L01-007",
+    "type": "practice",
+    "practiceCategory": "単一知識の基礎確認問題",
+    "field": "地学",
+    "chapterId": "ch5-4",
+    "difficultyLevel": 1,
+    "sequenceOrder": 9,
+    "questionText": "太陽の表面に見られる、周囲より温度が低いために黒く見える部分を何というか。",
+    "choices": [
+      "黒点",
+      "プロミネンス",
+      "コロナ",
+      "フレア"
+    ],
+    "correctAnswer": 0,
+    "explanation": "黒点は太陽表面のうち、強い磁場の影響で周囲より温度が低くなり黒く見える部分です。プロミネンスは太陽表面から立ち上る炎のようなガスの動き、コロナは太陽を取り巻く高温の希薄なガス層、フレアは太陽表面での爆発現象で、それぞれ異なる現象です。",
+    "hints": [
+      "太陽の表面に見える「黒い点」そのものの名前です。"
+    ],
+    "tags": [
+      "自然科学",
+      "地学",
+      "太陽"
+    ],
+    "relatedChapterIds": [
+      "ch5-4"
+    ]
+  }
+]
